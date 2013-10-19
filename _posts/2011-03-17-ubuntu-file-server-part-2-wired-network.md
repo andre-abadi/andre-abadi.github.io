@@ -56,14 +56,14 @@ At the start of each section we can see the name of the adapter (eth0, lo and wl
 
 First, a trip to the Google machine to find relevant guides. [This article](https://help.ubuntu.com/community/WifiDocs/WPAHowTo#WPA%20Supplicant) was found, but we must pay heed to the fact that it is for an older version of Ubuntu, so it may not work and may have different or primitive commands. We will now tell Ubuntu to use the wired connection and how to use it by browsing to the network interface configuration file and editing it.
 
-{% highlight bash %}
+{% highlight console %}
 eagle@server:~$ cd /etc/network
 eagle@server:/etc/network$ sudo nano interfaces
 {% endhighlight %}
 
 Here we've used the built-in program nano to open the interfaces file, which will look something like this:
 
-{% highlight bash %}
+{% highlight console %}
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 
@@ -83,19 +83,19 @@ Our addition is seen in at the bottom of the file, how it works was learnt from 
 
 Now we plug in a network cable from the machine to the router and restart the networking service with the new settings.
 
-{% highlight bash %}
+{% highlight console %}
 eagle@server:~$ sudo /etc/init.d/networking restart
 {% endhighlight %}
 
 At this point we should be able to see output showing us the adapter procuring itself an IPv4 address from the router. We can confirm this with:
 
-{% highlight bash %}
+{% highlight console %}
 eagle@server:~$ ifconfig eth0
 {% endhighlight %}
 
 And look for the new IPv4 address of the machine or to greater effect:
 
-{% highlight bash %}
+{% highlight console %}
 eagle@server:~$ ping google.com
 PING google.com (66.102.11.104) 56(84) bytes of data.
 64 bytes from syd01s01-in-f104.1e100.net (66.102.11.104): icmp_req=1 ttl=53 time=79.8 ms
