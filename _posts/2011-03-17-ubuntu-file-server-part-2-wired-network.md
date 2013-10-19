@@ -10,7 +10,7 @@ Continuing from Part 1 of this series have now installed Ubuntu 10.10 Server x64
 In the following pages, it is important to remember to backup your current configurations before attempting to meddle on the command line. To this effect I will be playing with the network interfaces configuration file and hence, will back it up first.
 
 
-{% highlight bash %}
+{% highlight console%}
 dancingborg@server:~$ cd /etc/network
 eagle@server:/etc/network$ ls
 if-down.d  if-post-down.d  if-pre-up.d  if-up.d  interfaces
