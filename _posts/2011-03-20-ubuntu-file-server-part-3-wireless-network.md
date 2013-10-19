@@ -52,11 +52,6 @@ Next we will edit the Ubuntu network interface configuration file, which we alre
 {% highlight console %}
 eagle@server:~$ cd /etc/network
 eagle@server:/etc/network$ sudo vim interfaces
-{% endhighlight %}
-
-In the file that we have opened, we can see the entries that we previously made and those in green we will add now:
-
-{% highlight console %}
 # This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 
@@ -80,19 +75,14 @@ Above you can see a similar thing happens for the wireless adapter as for the wi
 
 To this effect we need to configure the security setting that our machine will use to connect to the network of our choice. At the start of this part of the series we install the wpasupplicant package and this will supply the security settings to our adapter in order to connect to the wireless network.
 
-Our wpasupplicant program is able to pull settings from a file that we create in the /etc/ directory and we will do this by browsing there and then creating a new file:
+Our wpasupplicant program is able to pull settings from a file that we create in the /etc/ directory and we will do this by browsing there and then creating a new file, placing the text inside as shown:
 
 {% highlight console %}
 eagle@server:~$ cd /etc/
 eagle@server:/etc$ sudo vim wpa_supplicant.conf
-{% endhighlight %}
-
-Inside this file we will write the following:
-
-{% highlight console %}
 network={
-          ssid="same_as_we_entered_into_interfaces_config_file"
-          proto=RSN          key_mgmt=WPA-PSK          pairwise=CCMP TKIP                 group=CCMP TKIP          psk="wireless_password"}
+	ssid="same_as_we_entered_into_interfaces_config_file"
+	proto=RSN          key_mgmt=WPA-PSK          pairwise=CCMP TKIP                	group=CCMP TKIP          psk="wireless_password"}
 {% endhighlight %}
 
 And now we can test our configuration to make sure that it works by using the command:
