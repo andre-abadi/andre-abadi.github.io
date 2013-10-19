@@ -1,0 +1,10 @@
+name: dancingborg.blogspot.io
+markdown: redcarpet
+pygments: true
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
