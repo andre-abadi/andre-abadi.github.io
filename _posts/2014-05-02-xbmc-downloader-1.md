@@ -1,6 +1,6 @@
 ---
 layout: post
-title: XBMX Downloader, Part 1
+title: XBMC Downloader, Part 1
 categories: xbmc
 ---
 
