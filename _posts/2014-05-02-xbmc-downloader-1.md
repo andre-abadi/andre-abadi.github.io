@@ -10,14 +10,14 @@ So you just finished installing [XBMC](http://xbmc.org/about/). It works a treat
 
 I will assume that you are using one of the following platforms.
 
-*   XBMCbuntu
-*   Raspbmc
+* XBMCbuntu
+* Raspbmc
 
 Here's a quick primer on all the names:
 
 Linux (or GNU/Linux... don't get me [started](http://en.wikipedia.org/wiki/GNU/Linux_naming_controversy) is an open source operating system closely related to but not [Unix](http://www.cyberciti.biz/faq/what-is-the-difference-between-linux-and-unix/).
 
-  - [Debian](http://www.debian.org/intro/about); is a powerful, balanced distribution of linux.
+  - [Debian](http://www.debian.org/intro/about) is a powerful, balanced distribution of linux.
 
     - [Ubuntu](http://www.ubuntu.com/desktop) is a popular, easy to use spin-off linux distibution that is built upon Debian.
 
