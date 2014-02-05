@@ -36,12 +36,6 @@ All done here for now. Go find another computer and download [PuTTY](http://www.
 
 Here's the part where, depending on your platform, what information you enter will differ.
 
-If you have Raspbmc, use the following login credentials:
+If you have Raspbmc, for your username type `pi` and for your password type `raspberry`
 
-username|password
-pi|raspberry
-
-If you have XBMCbuntu, use the following login credentials:
-
-username|password
-xbmc||
+If you have XBMCbuntu, for your username type `xbmc` and leave your password blank, unless you [entered a password](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ#How_can_I_transfer_files_to.2Ffrom_XBMCbuntu.3F) when you first installed XBMCbuntu.
