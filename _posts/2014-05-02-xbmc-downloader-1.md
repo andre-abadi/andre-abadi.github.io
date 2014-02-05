@@ -10,8 +10,8 @@ So you just finished installing [XBMC](http://xbmc.org/about/). It works a treat
 
 I will assume that you are using one of the following platforms.
 
--   XBMCbuntu
--   Raspbmc
+*   XBMCbuntu
+*   Raspbmc
 
 Here's a quick primer on all the names:
 
