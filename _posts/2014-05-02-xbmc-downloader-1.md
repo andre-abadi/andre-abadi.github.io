@@ -49,7 +49,7 @@ The prompt will usually contain pertinent information, followed by an uncommon c
 
 4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 
-All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems.
+All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
 
 #XBMC in the world of Linux
 
@@ -60,11 +60,11 @@ The two most popular ways of running XBMC are:
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
-Linux itself is only a [Kernel](http://bit.ly/1lziWQ7)(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
 
-[Debian](http://en.wikipedia.org/wiki/Debian) is (among other things) a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades and hence master of none. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
+[Debian](http://en.wikipedia.org/wiki/Debian) is a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades but doesn’t excel at any one task. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 
-[Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_(operating_system)) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility.
+[Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_(operating_system)) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility, and the way it builds an attractive and usable interface onto the proven Debian distribution.
 
 - [XBMCbuntu](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ) is a re-mix of Ubuntu. It has added media codecs and the XBMC program and instead of booting to the Ubuntu desktop, it boots straight into XBMC program interface.
 
