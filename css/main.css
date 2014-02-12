@@ -23,6 +23,10 @@ and (max-device-width : 480px) {
     font: 13.34px Helvetica, Arial, sans-serif;
   }
   
+  .site {
+    background-color: red;
+  }
+  
   #footer {
     display: none;
   }
