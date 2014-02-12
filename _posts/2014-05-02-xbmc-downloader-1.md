@@ -26,18 +26,18 @@ A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) 
 
 Don't worry about trying these, but understand that the basic workflow of a command-line interface is as follows:
 
-1. A sequence of characters (a [string](http://en.wikipedia.org/wiki/String_(computer_science))) 'prompts' the user for input. Examples include:
+1. A sequence of characters , known as a [string](http://en.wikipedia.org/wiki/String_(computer_science)) 'prompts' the user for input. Examples include:
 
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
   c. `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
-  d. - `sh-2.05b$` in Unix.
+  d. `sh-2.05b$` in Unix.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
 
   a. `ls -a` in Linux lists all files.
   b. `del Document1.doc` in Microsoft Windows deletes that file.
-  c. 'ping google.com` in UNIX or Linux pings Google.
+  c. `ping google.com` in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
