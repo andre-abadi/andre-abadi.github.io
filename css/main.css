@@ -43,7 +43,6 @@ a:visited { color: #a0a; }
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
-  margin-top: 1em;
 }
 
 ul.posts li {
@@ -80,6 +79,7 @@ ul.posts span {
 .header {
   background-color: #2C343B;
   padding: 1em;
+  margin-bottom:0.5em;
 }
 
 .site .header h1.title {
