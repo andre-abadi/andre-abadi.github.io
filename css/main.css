@@ -33,13 +33,16 @@ a:visited { color: #2C343B; }
   padding-bottom: 1.5em;
 }
 
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .header {
   background-color: #2C343B;
   padding: 0.75em;
   border-bottom: 1em solid #C44741;
   margin-bottom: 2.5em;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .site .header h1.title {
