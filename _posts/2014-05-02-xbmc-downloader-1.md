@@ -4,7 +4,7 @@ title: XBMC Downloader, Part 1
 categories: xbmc
 ---
 
-###In a Nutshell
+#In a Nutshell
 
 _Introduction_
 _The Command-line Interface_
@@ -14,7 +14,7 @@ _XBMC in the world of Linux_
 
 The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
 
-I thought I'd write this guide as a sort of beginner's-cookbook into the world of Linux, teaching the basics with the goal of adding sophisticated functionality to a popular Linux based system; XBMC.
+I thought I'd write this guide as a sort of beginner's-cookbook into the world of Linux, teaching the basics with the goal of adding sophisticated functionality to a popular program available on Linux; XBMC.
 
 This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
@@ -24,20 +24,22 @@ This first post will be an introduction into the Linux world, how it works and w
 
 A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) is one where the user enters textual commands to the operating system, which executes commands and in turn displays the results in text form. In the Microsoft Windows environment, this is known as 'CMD' or the '[Command Prompt](http://en.wikipedia.org/wiki/Command_Prompt)'.
 
-Don't worry about trying these, but understand that the basic workflow of a command-line interface is as follows:
+Don't worry about trying these. For now, look past the specifics and observe the commonalities.
 
-1. A sequence of characters , known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
+1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
 
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-  c. `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
+  c. `[12:59 daniel@arch ~ $` in Arch, a flavour of Linux.
   d. `sh-2.05b$` in Unix.
 
-2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
+The prompt will usually contain pertinent information, followed by an uncommon character such as `$` showing where your input begins. In the above examples you may notice information such as; the current time, current username, computer name and the current working directory. Because there is no desktop, these textual cues replace the visual ones you may be accustomed to in a Graphical User Interface.
 
-  a. `ls -a` in Linux lists all files.
-  b. `del Document1.doc` in Microsoft Windows deletes that file.
-  c. `ping google.com` in UNIX or Linux pings Google.
+2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
+
+  a. `ls -a` is the `ls` command to list files, followed by the argument `-la` to include hidden files.
+  b. `del Document1.doc` in Windows is the `del` command, followed by the argument of what to delete.
+  c. `ping google.com` in UNIX or Linux is the `ping` command followed by the URL to ping.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
