@@ -28,22 +28,22 @@ Don't worry about trying these, but understand that the basic workflow of a comm
 
 1. A sequence of characters (a [string](http://en.wikipedia.org/wiki/String_(computer_science))) 'prompts' the user for input. Examples include:
 
-	- `C:\Users\Microsoft>` in Microsoft Windows.
-	- `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-	- `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
-	- `sh-2.05b$' in Unix.
+  a. `C:\Users\Microsoft>` in Microsoft Windows.
+  b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
+  c. `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
+  d. - `sh-2.05b$' in Unix.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
 
-	- `ls -a` in Linux lists all files.
-	- `del Document1.doc' in Microsoft Windows deletes that file.
-	- 'ping google.com' in UNIX or Linux pings Google.
+  a. `ls -a` in Linux lists all files.
+  b. `del Document1.doc' in Microsoft Windows deletes that file.
+  c. 'ping google.com' in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
-	- Deleting a file may not return any text.
-	- Deleting a protected file may return a confirmation prompt.
-	- Pinging Google may return information about the command.
+  a. Deleting a file may not return any text.
+  b. Deleting a protected file may return a confirmation prompt.
+  c. Pinging Google may return information about the command.
 
 4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 
@@ -51,9 +51,14 @@ All command-line interfaces operate with the above syntax and grammar. It is imp
 
 #XBMC in the world of Linux
 
+The two most popular ways of running XBMC are:
+
+1. Downloading an ISO and running it as an operating system.
+2. Downloading it to your SD card and running it on your Raspberry Pi.
+
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
-Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing))(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing\))(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
 
 [Debian](http://en.wikipedia.org/wiki/Debian) is (among other things) a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades and hence master of none. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 
