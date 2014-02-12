@@ -58,7 +58,7 @@ The two most popular ways of running XBMC are:
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
-Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing)\)(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+Linux itself is only a [Kernel](http://bit.ly/1lziWQ7)(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
 
 [Debian](http://en.wikipedia.org/wiki/Debian) is (among other things) a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades and hence master of none. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 
