@@ -81,6 +81,8 @@ ul.posts span {
 .header {
   background-color: #2C343B;
   padding: 0.75em;
+  border-bottom: 1em solid #C44741;
+  padding-bottom: 3em;
 }
 
 .site .header h1.title {
@@ -108,7 +110,7 @@ ul.posts span {
 }*/
 
 .ruler {
-  background-color: #C44741;
+  background-color: ;
   height: 1em;
   margin-bottom:3em;
 }
@@ -121,7 +123,6 @@ ul.posts span {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #52616D;
-  border-bottom: 5px solid #52616D;
   margin-top: 2em;
   overflow: hidden;
 }
