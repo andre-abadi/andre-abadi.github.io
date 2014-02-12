@@ -22,28 +22,6 @@ a:hover   { color: #2C343B; }
 a:visited { color: #2C343B; }
 
 
-/*************************/
-/* Home
-/*************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*************************/
-/* Site
-/*************************/
-
 .site {
   font-size: 115%;
   text-align: justify;
@@ -55,16 +33,13 @@ ul.posts span {
   padding-bottom: 1.5em;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .header {
   background-color: #2C343B;
   padding: 0.75em;
   border-bottom: 1em solid #C44741;
   margin-bottom: 2.5em;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .site .header h1.title {
@@ -78,10 +53,6 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
-}
-
-.site .meta {
-  color: #aaa;
 }
 
 .site .footer {
@@ -112,18 +83,36 @@ ul.posts span {
 }
 
 /*************************/
-/* Posts
+/* Lists
 /*************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
 }
 
 .post ul, .post ol {
   margin-left: 1.35em;
+}
+
+/*************************/
+/* Code Blocks
+/*************************/
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
 }
 
 .post code {
