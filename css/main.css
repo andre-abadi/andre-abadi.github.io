@@ -82,7 +82,7 @@ ul.posts span {
   background-color: #2C343B;
   padding: 0.75em;
   border-bottom: 1em solid #C44741;
-  padding-bottom: 3em;
+  margin-bottom: 3em;
 }
 
 .site .header h1.title {
