@@ -31,11 +31,11 @@ h1 {
 }
 p { margin: 1em 0; }
 
-/*
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-*/
+
+a         { color: #52616D; }
+a:hover   { color: #52616D; }
+a:visited { color: #52616D; }
+
 
 /*****************************************************************************/
 /*
