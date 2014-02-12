@@ -12,13 +12,15 @@ body {
 
 p { margin: 1em 0; }
 
-h3{
+h3 {
   margin-top: 1em;
 }
 
-
-a         { color: #2C343B; }
-a:hover   { color: #2C343B; }
+a  {
+  color: #2C343B;
+  text-decoration: none;
+}
+a:hover    { color: #2C343B; }
 a:visited { color: #2C343B; }
 
 
@@ -33,16 +35,17 @@ a:visited { color: #2C343B; }
   padding-bottom: 1.5em;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
 
 .header {
   background-color: #2C343B;
   padding: 0.75em;
   border-bottom: 1em solid #C44741;
   margin-bottom: 2.5em;
+}
+
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .site .header h1.title {
