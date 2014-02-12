@@ -45,7 +45,7 @@ a, a:hover, a:visited  {
   border-bottom: 1em solid #C44741;
   margin-bottom: 2.5em;
   color: #E5E1D1;
-  text-decoration: none;
+
 }
 
 .site .header h1.title {
@@ -54,6 +54,7 @@ a, a:hover, a:visited  {
 
 .site .header h1.title a {
   color: #E5E1D1;
+  text-decoration: none;
 }
 
 .site .header a.extra {
