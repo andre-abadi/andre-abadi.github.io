@@ -9,6 +9,7 @@ _Overview_
 _Going Deeper_
 _The Terminal Emulator_
 _The Secure Shell_
+_Conclusion_
 
 ###Overview
 
@@ -26,7 +27,7 @@ With the advancement of technology and reduction in size, eventually the mainfra
 
 ###The Terminal Emulator
 
-Modern operating systems don’t have terminals anymore. Most of them do, however, feature a [terminal emulator])http://en.wikipedia.org/wiki/Terminal_emulator), which is a program that emulates the terminal. Because the underlying operating system remains the same, we can still pass textual data to the operating system and have it return textual information. Modern computers can do so much more than crunch numbers and hence, so can modern terminal emulators.
+Modern operating systems don’t have terminals anymore. Most of them do, however, feature a [terminal emulator](http://en.wikipedia.org/wiki/Terminal_emulator), which is a program that emulates the terminal. Because the underlying operating system remains the same, we can still pass textual data to the operating system and have it return textual information. Modern computers can do so much more than crunch numbers and hence, so can modern terminal emulators.
 
 The terminal emulator allows us to access the operating system’s Shell. The Shell is the layer between the user and the underlying [Machine Code](http://en.wikipedia.org/wiki/Machine_code) being executed _by_ the Kernel _on_ the Processor.
 
@@ -45,6 +46,8 @@ With the increased risk of allowing remote devices to execute potentially destru
 [PuTTY](http://en.wikipedia.org/wiki/PuTTY) is a popular, Windows-based remote terminal emulator. Primarily it is used to connect to a UNIX-like host over the network using the SSH protocol, which is a secure way to send and receive terminal commands over the network.
 
 PuTTY is named after TTY, which is short for terminal in the UNIX world. The word TTY draws its history from the [Teletype Corporation](http://en.wikipedia.org/wiki/Teletype_Corporation) which produced some of the first telephone-based-computer terminals. Like any good terminal emulator, PuTTY can still interact with its host via a serial connection, just like in the good old days!
+
+###Conclusion
 
 Had enough of history? Me too. Hopefully I’ve managed to cover off all of the names and concepts involved. It is important to understand the context of that upon we are about to embark.
 
