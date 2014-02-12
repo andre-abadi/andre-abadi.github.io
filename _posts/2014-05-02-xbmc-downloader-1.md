@@ -31,13 +31,13 @@ Don't worry about trying these, but understand that the basic workflow of a comm
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
   c. `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
-  d. - `sh-2.05b$' in Unix.
+  d. - `sh-2.05b$` in Unix.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
 
   a. `ls -a` in Linux lists all files.
-  b. `del Document1.doc' in Microsoft Windows deletes that file.
-  c. 'ping google.com' in UNIX or Linux pings Google.
+  b. `del Document1.doc` in Microsoft Windows deletes that file.
+  c. 'ping google.com` in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
@@ -58,7 +58,7 @@ The two most popular ways of running XBMC are:
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
-Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing\))(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing)\)(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
 
 [Debian](http://en.wikipedia.org/wiki/Debian) is (among other things) a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades and hence master of none. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 
