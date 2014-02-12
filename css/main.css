@@ -108,6 +108,11 @@ ul.posts span {
   color: #000;
 }*/
 
+.ruler {
+  background-color: #C44741;
+  height: 3em;
+}
+
 .site .meta {
   color: #aaa;
 }
