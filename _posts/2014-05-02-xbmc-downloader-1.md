@@ -4,43 +4,65 @@ title: XBMC Downloader, Part 1
 categories: xbmc
 ---
 
-The purpose of this guide is to modify a Linux-based XBMC distribution into an automated downloading station. I will do my best to explain every command and concept at the most basic level possible.
+###In a Nutshell
 
-So you just finished installing [XBMC](http://xbmc.org/about/). It works a treat and you have configured it to playback your carefully pruned media library of Movies and TV Shows.
+> Purpose of this guide.
+> How the Command-line Interface Works.
+> Linux, Debian, Ubuntu, XBMCbuntu, Raspbian and Raspbmc defined.
 
-I will assume that you are using one of the following platforms.
+#Introduction
 
-* XBMCbuntu
-* Raspbmc
+The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
 
-Here's a quick primer on all the names:
+I thought I'd write this guide as a sort of beginner's-cookbook into the world of Linux, teaching the basics with the goal of adding sophisticated functionality to a popular Linux based system; XBMC.
 
-Linux (or GNU/Linux... don't get me [started](http://en.wikipedia.org/wiki/GNU/Linux_naming_controversy) is an open source operating system closely related to but not [Unix](http://www.cyberciti.biz/faq/what-is-the-difference-between-linux-and-unix/).
+This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
-  - [Debian](http://www.debian.org/intro/about) is a powerful, balanced distribution of linux.
+#The Command-line Interface
 
-    - [Ubuntu](http://www.ubuntu.com/desktop) is a popular, easy to use spin-off linux distibution that is built upon Debian.
+[UNIX](http://en.wikipedia.org/wiki/Unix) is a computer operating system designed to be operated from a command-line interface. It is one of the oldest operating systems and most modern operating systems are based upon it and its [philosophy](http://en.wikipedia.org/wiki/Unix_philosophy).
 
-      - [XBMCbuntu](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ) is mostly Ubuntu with XBMC pre-installed and set to run on startup.
+A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) is one where the user enters textual commands to the operating system, which executes commands and in turn displays the results in text form. In the Microsoft Windows environment, this is known as 'CMD' or the '[Command Prompt](http://en.wikipedia.org/wiki/Command_Prompt)'.
 
-    - [Raspbian](http://www.raspbian.org/) is a version of Debian compiled for the unique processor ([ARM](http://en.wikipedia.org/wiki/ARM_architecture)) contained within the [Raspberry Pi](http://www.raspberrypi.org/about).
+Don't worry about trying these, but understand that the basic workflow of a command-line interface is as follows:
 
-      - [Raspbmc](http://www.raspbmc.com/about/) is mostly Raspbian with XBMC pre-installed and set to run on startup.
+1. A sequence of characters (a [string](http://en.wikipedia.org/wiki/String_(computer_science))) 'prompts' the user for input. Examples include:
 
-As you can see, both XBMC and Raspbmc operate on a Debian core. This means that commands and programs are mostly identical for our purposes.
+  a. `C:\Users\Microsoft>` in Microsoft Windows.
+  b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
+  c. `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
+  d. `sh-2.05b$' in Unix.
 
-Most people these days can run XBMC on their Raspberry Pi. I choose to run XBMC on an [Asrock Ion 300](http://www.asrock.com/nettop/spec/ion%20330.asp) purely because I have one and it leaves my Pi for tinkering.
+2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
 
-Technicalities aside, let's get down to business. What we want to do is upgrade our device so that it can download TV shows without a touch. Sounds impossible? Well, it isn't but explaining it all may prove painful to mee. Luckily for you, you can make the most of my successes without wasting near as much time.
+  a. `ls -a` in Linux lists all files.
+  b. `del Document1.doc' in Microsoft Windows deletes that file.
+  c. 'ping google.com' in UNIX or Linux pings Google.
 
-The first thing you want to do is get your XBMC checked out. Make sure it is happily playing back your local (or networked) movies and can play back a few YouTube clips.
+3. The operating system executes the command and may or may not return text, depending on the command.
 
-On your XBMC interface, navigate to `System --> System Info`. On the `Summary` tab you should see the IP address of the machine.
+  a. Deleting a file may not return any text.
+  b. Deleting a protected file may return a confirmation prompt.
+  c. Pinging Google may return information about the command.
 
-All done here for now. Go find another computer and download [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). Open it up and type in the IP address you saw on your XBMC. In my example it was `192.168.1.120`.
+4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 
-Here's the part where, depending on your platform, what information you enter will differ.
+All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems.
 
-If you have Raspbmc, for your username type `pi` and for your password type `raspberry`
+#XBMC in the world of Linux
 
-If you have XBMCbuntu, for your username type `xbmc` and leave your password blank, unless you [entered a password](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ#How_can_I_transfer_files_to.2Ffrom_XBMCbuntu.3F) when you first installed XBMCbuntu.
+[GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
+
+Linux itself is only a [Kernel](http://en.wikipedia.org/wiki/Kernel_(computing))(the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+
+[Debian](http://en.wikipedia.org/wiki/Debian) is (among other things) a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades and hence master of none. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
+
+[Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_(operating_system)) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility.
+
+- [XBMCbuntu](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ) is a re-mix of Ubuntu. It has added media codecs and the XBMC program and instead of booting to the Ubuntu desktop, it boots straight into XBMC program interface.
+
+[Raspbian](http://www.raspbian.org/) is a version of Debian compiled for the unique [ARM](http://en.wikipedia.org/wiki/ARM_architecture) processor contained within the [Raspberry Pi](http://www.raspberrypi.org/about). It is otherwise identical to ‘ordinary’ Debian.
+
+- [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
+
+In the next part of this guide we will learn how to log into our Linux computer and issue some commands on the CLI.
