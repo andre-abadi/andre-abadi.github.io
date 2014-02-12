@@ -1,0 +1,147 @@
+/*************************/
+/* Common
+/*************************/
+
+body {
+  background-color: #E5E1D1;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #2C343B
+}
+
+p { margin: 1em 0; }
+
+h3 {
+  margin-top: 1em;
+}
+
+a, a:hover, a:visited  {
+  color: inherit;
+}
+
+h1, h2, h3 {
+  text-decoration: none;
+}
+
+/*************************/
+/* Main content block
+/*************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 50em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+  background-color: #FFFFFF;
+  padding: 3em;
+  padding-bottom: 1.5em;
+}
+
+/*************************/
+/* Header
+/*************************/
+
+.header {
+  background-color: #2C343B;
+  padding: 0.75em;
+  border-bottom: 1em solid #C44741;
+  margin-bottom: 2.5em;
+  color: #E5E1D1;
+
+}
+
+.site .header h1.title {
+  display: inline-block;
+}
+
+/* .site .header h1.title a {
+  color: #E5E1D1;
+  text-decoration: none;
+} */
+
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 3px solid #2C343B;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.site .footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.site .footer .contact a {
+  color: #8085C1;
+}
+
+.site .footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.site .footer .rss img {
+  border: 0;
+}
+
+/*************************/
+/* Lists
+/*************************/
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+/*************************/
+/* Code Blocks
+/*************************/
+
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
