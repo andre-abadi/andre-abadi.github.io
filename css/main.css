@@ -80,7 +80,6 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  /* margin-bottom: 2em; */
 }
 
 .site .header h1.title a {
@@ -141,7 +140,8 @@ ul.posts span {
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .4em;
+  /*padding: 0 .4em;*/
+  padding: 1em;
 }
 
 .post ul, .post ol {
