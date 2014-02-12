@@ -28,22 +28,22 @@ Don't worry about trying these, but understand that the basic workflow of a comm
 
 1. A sequence of characters (a [string](http://en.wikipedia.org/wiki/String_(computer_science))) 'prompts' the user for input. Examples include:
 
-  - `C:\Users\Microsoft>` in Microsoft Windows.
-  - `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-  - `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
-  - `sh-2.05b$' in Unix.
+	- `C:\Users\Microsoft>` in Microsoft Windows.
+	- `TiBook:~/Desktop taylor$` in Apple's Mac OS.
+	- `[12:59 daniel@arch ~ $` in Arch , a flavour of Linux.
+	- `sh-2.05b$' in Unix.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments). For example:
 
-  - `ls -a` in Linux lists all files.
-  - `del Document1.doc' in Microsoft Windows deletes that file.
-  - 'ping google.com' in UNIX or Linux pings Google.
+	- `ls -a` in Linux lists all files.
+	- `del Document1.doc' in Microsoft Windows deletes that file.
+	- 'ping google.com' in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
-  - Deleting a file may not return any text.
-  - Deleting a protected file may return a confirmation prompt.
-  - Pinging Google may return information about the command.
+	- Deleting a file may not return any text.
+	- Deleting a protected file may return a confirmation prompt.
+	- Pinging Google may return information about the command.
 
 4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 
