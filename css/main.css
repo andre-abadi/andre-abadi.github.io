@@ -73,6 +73,10 @@ ul.posts span {
   text-decoration: none;
 }
 
+.header {
+  background-color: #52616D;
+}
+
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
