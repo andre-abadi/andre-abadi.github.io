@@ -79,7 +79,7 @@ ul.posts span {
 }
 
 .header {
-  background-color: #52616D;
+  background-color: #2C343B;
   padding: 0.75em;
   border-bottom: 1em solid #C44741;
   margin-bottom: 3em;
@@ -122,7 +122,7 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #52616D;
+  border-top: 4px solid #2C343B;
   margin-top: 2em;
   overflow: hidden;
 }
