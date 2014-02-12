@@ -71,7 +71,7 @@ Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operatin
 
 [Raspbian](http://www.raspbian.org/) is a version of Debian compiled for the unique [ARM](http://en.wikipedia.org/wiki/ARM_architecture) processor contained within the [Raspberry Pi](http://www.raspberrypi.org/about). It is otherwise identical to ‘ordinary’ Debian.
 
-- [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
+- [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.  
 
 
 ###Conclusion
