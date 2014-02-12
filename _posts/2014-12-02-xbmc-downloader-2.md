@@ -1,3 +1,9 @@
+---
+layout: post
+title: XBMC Downloader, Part 2
+categories: xbmc
+---
+
 #Enough History
 
 Most people these days can run XBMC on their Raspberry Pi. I choose to run XBMC on an [AsRock Ion 330](http://www.asrock.com/nettop/spec/ion%20330.asp) purely because I have one and it leaves my Pi for tinkering.
