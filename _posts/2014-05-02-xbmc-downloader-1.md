@@ -4,14 +4,14 @@ title: XBMC Downloader, Part 1
 categories: xbmc
 ---
 
-##In a Nutshell
+###In a Nutshell
 
 _Introduction_
 _The Command-line Interface_
 _XBMC in the world of Linux_
 _Conclusion_
 
-##Introduction
+###Introduction
 
 The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
 
@@ -19,7 +19,7 @@ I thought I'd write this guide as a sort of beginner's-cookbook into the world o
 
 This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
-##The Command-line Interface
+###The Command-line Interface
 
 [UNIX](http://en.wikipedia.org/wiki/Unix) is a computer operating system designed to be operated from a command-line interface. It is one of the oldest operating systems and most modern operating systems are based upon it and its [philosophy](http://en.wikipedia.org/wiki/Unix_philosophy).
 
@@ -52,7 +52,7 @@ The prompt will usually contain pertinent information, followed by an uncommon c
 
 All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
 
-##XBMC in the world of Linux
+###XBMC in the world of Linux
 
 The two most popular ways of running XBMC are:
 
@@ -74,7 +74,7 @@ Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operatin
 - [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
 
 
-##Conclusion
+###Conclusion
 
 Hopefully this initial theory lesson has given you a picutre of where in the world of computing you are operating and how the system with which you are interacting came to be.
 
