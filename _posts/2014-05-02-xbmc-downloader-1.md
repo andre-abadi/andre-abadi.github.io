@@ -30,16 +30,16 @@ Don't worry about trying these. For now, look past the specifics and observe the
 
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-  c. `[12:59 daniel@arch ~ $` in Arch, a flavour of Linux.
+  c. `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
   d. `sh-2.05b$` in Unix.
 
 The prompt will usually contain pertinent information, followed by an uncommon character such as `$` showing where your input begins. In the above examples you may notice information such as; the current time, current username, computer name and the current working directory. Because there is no desktop, these textual cues replace the visual ones you may be accustomed to in a Graphical User Interface.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
 
-  a. `ls -a` is the `ls` command to list files, followed by the argument `-la` to include hidden files.
-  b. `del Document1.doc` in Windows is the `del` command, followed by the argument of what to delete.
-  c. `ping google.com` in UNIX or Linux is the `ping` command followed by the URL to ping.
+  a. `ls -a` in UNIX or Linux lists all files including hidden ones.
+  b. `del Document1.doc` in Windows or MS-DOS deletes said file.
+  c. `ping google.com` in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
