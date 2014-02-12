@@ -9,6 +9,7 @@ categories: xbmc
 _Introduction_
 _The Command-line Interface_
 _XBMC in the world of Linux_
+_Conclusion_
 
 #Introduction
 
@@ -64,12 +65,16 @@ Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operatin
 
 [Debian](http://en.wikipedia.org/wiki/Debian) is a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades but doesn’t excel at any one task. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 
-[Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_(operating_system)) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility, and the way it builds an attractive and usable interface onto the proven Debian distribution.
+[Ubuntu](http://bit.ly/1iNj9hf) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility, and the way it builds an attractive and usable interface onto the proven Debian distribution.
 
 - [XBMCbuntu](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ) is a re-mix of Ubuntu. It has added media codecs and the XBMC program and instead of booting to the Ubuntu desktop, it boots straight into XBMC program interface.
 
 [Raspbian](http://www.raspbian.org/) is a version of Debian compiled for the unique [ARM](http://en.wikipedia.org/wiki/ARM_architecture) processor contained within the [Raspberry Pi](http://www.raspberrypi.org/about). It is otherwise identical to ‘ordinary’ Debian.
 
 - [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
+
+#Conclusion
+
+Hopefully this initial theory lesson has given you a picutre of where in the world of computing you are operating and how the system with which you are interacting came to be.
 
 In the next part of this guide we will learn how to log into our Linux computer and issue some commands on the CLI.
