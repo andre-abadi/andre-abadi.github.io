@@ -125,6 +125,8 @@ ul.posts span {
   border-top: 4px solid #2C343B;
   margin-top: 2em;
   overflow: hidden;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
 }
 
 .site .footer .contact {
