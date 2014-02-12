@@ -26,7 +26,7 @@ A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) 
 
 Don't worry about trying these, but understand that the basic workflow of a command-line interface is as follows:
 
-1. A sequence of characters , known as a [string](http://en.wikipedia.org/wiki/String_(computer_science)) 'prompts' the user for input. Examples include:
+1. A sequence of characters , known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
 
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
