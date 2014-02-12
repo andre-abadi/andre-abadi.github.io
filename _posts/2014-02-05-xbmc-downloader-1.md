@@ -14,9 +14,7 @@ _Conclusion_
 ###Introduction
 
 The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
-
 I thought I'd write this guide as a sort of beginner's-cookbook into the world of Linux, teaching the basics with the goal of adding sophisticated functionality to a popular program available on Linux; XBMC.
-
 This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
 ###The Command-line Interface
@@ -25,9 +23,9 @@ This first post will be an introduction into the Linux world, how it works and w
 
 A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) is one where the user enters textual commands to the operating system, which executes commands and in turn displays the results in text form. In the Microsoft Windows environment, this is known as 'CMD' or the '[Command Prompt](http://en.wikipedia.org/wiki/Command_Prompt)'.
 
-Don't worry about trying these. For now, look past the specifics and observe the commonalities.
+(Don't worry about trying these. For now, look past the specifics and observe the commonalities.)
 
-1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
+1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) _prompts_ the user for input. Examples include:
 
   a. `C:\Users\Microsoft>` in Microsoft Windows.
   b. `TiBook:~/Desktop taylor$` in Apple's Mac OS.
@@ -60,7 +58,6 @@ The two most popular ways of running XBMC are:
 2. Downloading it to your SD card and running it on your Raspberry Pi.
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
-
 Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
 
 [Debian](http://en.wikipedia.org/wiki/Debian) is a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades but doesn’t excel at any one task. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
