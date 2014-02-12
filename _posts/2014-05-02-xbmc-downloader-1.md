@@ -73,6 +73,7 @@ Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operatin
 
 - [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
 
+
 #Conclusion
 
 Hopefully this initial theory lesson has given you a picutre of where in the world of computing you are operating and how the system with which you are interacting came to be.

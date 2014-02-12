@@ -69,6 +69,7 @@ ul.posts span {
 .site .header a {
   font-weight: bold;
   text-decoration: none;
+  background-color: #52616D
 }
 
 .site .header h1.title {
@@ -77,7 +78,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #C44741;
 }
 
 .site .header h1.title a:hover {
