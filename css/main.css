@@ -20,6 +20,10 @@ a, a:hover, a:visited  {
   color: inherit;
 }
 
+h1, h2, h3 {
+  text-decoration: none;
+}
+
 /*************************/
 /* Main content block
 /*************************/
@@ -52,10 +56,10 @@ a, a:hover, a:visited  {
   display: inline-block;
 }
 
-.site .header h1.title a {
+/* .site .header h1.title a {
   color: #E5E1D1;
   text-decoration: none;
-}
+} */
 
 .site .header a.extra {
   color: #aaa;
