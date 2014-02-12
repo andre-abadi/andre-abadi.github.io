@@ -92,18 +92,21 @@ ul.posts span {
   color: #C44741;
 }
 
+/*
 .site .header h1.title a:hover {
   color: #000;
-}
+} */
+
 
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
+/*
 .site .header a.extra:hover {
   color: #000;
-}
+}*/
 
 .site .meta {
   color: #aaa;
