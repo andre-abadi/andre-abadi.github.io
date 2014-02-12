@@ -38,9 +38,9 @@ The prompt will usually contain pertinent information, followed by an uncommon c
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
 
-  a. `ls -a` in UNIX or Linux lists all files including hidden ones.
-  b. `del Document1.doc` in Windows or MS-DOS deletes said file.
-  c. `ping google.com` in UNIX or Linux pings Google.
+  a. `ls` followed by `-a` in UNIX or Linux lists all files including hidden ones.
+  b. `del` followed by `Document1.doc` in Windows or MS-DOS deletes said file.
+  c. `ping` followed by `google.com` in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
