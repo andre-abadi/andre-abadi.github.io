@@ -1,0 +1,39 @@
+/*****************************************************************************/
+/*
+/* Mobile
+/*
+/*****************************************************************************/
+
+  /* http://perishablepress.com/the-5-minute-css-mobile-makeover/ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  
+  * {
+    float: none;
+  }
+  
+  html, body {
+    padding: 3px;
+    margin: 0px;
+  }
+  
+  .site {
+    width: 100%;
+  }
+  
+  #footer {
+    display: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+   font-weight: normal;
+  }
+  
+  #content img {
+    max-width: 250px;
+  }
+
+}
