@@ -4,7 +4,7 @@ title: XBMC Downloader, Part 1
 categories: xbmc
 ---
 
-#In a Nutshell
+###In a Nutshell
 
 _Introduction_
 _The Command-line Interface_
