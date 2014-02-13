@@ -29,24 +29,24 @@ Don't worry about trying these. For now, look past the specifics and observe the
 
 1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
 
-  - `C:\Users\Microsoft>` in Microsoft Windows.
-  - `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-  - `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
-  - `sh-2.05b$` in Unix.
+  a.  `C:\Users\Microsoft>` in Microsoft Windows.
+  b.  `TiBook:~/Desktop taylor$` in Apple's Mac OS.
+  c.  `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
+  d.  `sh-2.05b$` in Unix.
 
 The prompt will usually contain pertinent information, followed by an uncommon character such as `$` showing where your input begins. In the above examples you may notice information such as; the current time, current username, computer name and the current working directory. Because there is no desktop, these textual cues replace the visual ones you may be accustomed to in a Graphical User Interface.
 
 2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
 
-  - `ls -a` in UNIX or Linux lists all files including hidden ones.
-  - `del Document1.doc` in Windows or MS-DOS deletes said file.
-  - `ping google.com` in UNIX or Linux pings Google.
+  a.  `ls -a` in UNIX or Linux lists all files including hidden ones.
+  b.  `del Document1.doc` in Windows or MS-DOS deletes said file.
+  c.  `ping google.com` in UNIX or Linux pings Google.
 
 3. The operating system executes the command and may or may not return text, depending on the command.
 
-  - Deleting a file may not return any text.
-  - Deleting a protected file may return a confirmation prompt.
-  - Pinging Google may return information about the command.
+  a.  Deleting a file may not return any text.
+  b.  Deleting a protected file may return a confirmation prompt.
+  c.  Pinging Google may return information about the command.
 
 4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 

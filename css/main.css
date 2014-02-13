@@ -7,4 +7,5 @@ body {
 .site {
   background-color: #FFFFFF;
   margin: 3em, auto, 3em;
+  max-width: 50em;
 }
