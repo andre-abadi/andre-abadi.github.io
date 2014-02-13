@@ -57,8 +57,10 @@ p img {
 
 code {
   background-color: #E5E1D1;
-  font: 1em, "Courier New", Courier, monospace;
-  border: 0.05em solid #52616D;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+  padding: 0.1em;
+  border: 0.1em solid #52616D;
 }
 
 @media all and (min-device-width: 768px) {
