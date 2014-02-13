@@ -26,6 +26,8 @@ If we can emulate a terminal from a graphical user interface, then why not a net
 
 [PuTTY](http://en.wikipedia.org/wiki/PuTTY) is a popular, Windows-base terminal emulator. Most commonly it is used to connect to a host over the network using the SSH protocol. PuTTY is a program that runs within the Windows GUI. It uses the SSH protocol to make a connection with an UNIX-like host and once connected is able to interact with its shell program. These text-based interactions are displayed in a terminal-like manner. It is emulating a terminal remotely; a _remote_ _terminal_ _emulator_.
 
+###Trying It Out
+
 Go ahead and [download PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) to somewhere you can easily get to. Open it up and take a moment to look around because you’ll be seeing this screen often.
 
 ![PuTTY](https://raw.github.com/dancingborg/dancingborg.github.io/master/_img/PuTTY.jpg)
@@ -40,14 +42,31 @@ You can see that I have saved some sessions (`osiris` and `raspberrypi`). They a
 
 Now head over to your XBMC and go to `System` then `System Info`. Here you should be able to observe the IP address that your local router has assigned the device running XBMC. For me it was `192.168.1.120` but for you it might be different.
 
-Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` are default values. Enter the IP address you found 
+Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` are default values. Enter the IP address you found in the `Host Name (or IP address)` field.
 
-Click `Open` and a black window should appear. 
+1.  Click `Open`
+2.  If a pop-up window appears, click `Yes`.
+3.  A black window should appear.
+4.  Inside will appear a prompt asking for your username.
+  a.  If you have Raspbmc, type in `pi`
+  b.  If you have XBMCbuntu, type in `xbmc`
+5. A prompt will ask for you password.
+  a.  If you have Raspbmc, type in ‘raspberry’
+  b.  If you have XBMCbuntu, just press enter.
 
-###Trying It Out
+If you completed all of this successfully, congratulations! PuTTY, using a username and password for security, just connected to your Linux device via SSH over the network and started a shell program. That shell program, once started, returned a command prompt, which was sent back over the network to PuTTY, which displayed it on your screen. PuTTY is now emulating the terminal of your Linux device over the network.
+
+That’s the shell program on the host computer giving you a command prompt right there. Try typing in `who` and press enter. As mentioned in Part 1, we just passed a command (_sans_ arguments) to the shell program on the Linux device. It returned certain information pertaining to your current login, and once completed, returned to you another command prompt.
+
+Type in `exit` and press enter. The connection between you and the host computer has been terminated and the Shell program ended. It is now safe to end the terminal emulation program and close PuTTY.
 
 ###Conclusion
 
-Had enough of history? Me too. Hopefully I’ve managed to cover off all of the names and concepts involved. It is important to understand the context of that upon we are about to embark.
+Well done, you have just connected to your Linux device running XBMC, and remotely emulated a text terminal. With an understanding of the command-line interface, at the prompt you entered a command to the shell program, receiving a textual result back from the shell program. Once it finished executing the command, it returned to you another command prompt.
 
-In the next part, we will connect to our Linux host over the Local Area Network using PuTTY and the SSH protocol.
+You then safely closed the remote connection to the shell program and ended the terminal emulation locally.
+
+We won’t go into quite as much detail in subsequent parts of this guide, but I felt it was important to give a good grounding in the very basics of what we are doing. The rest of the guide will all be done via SSH, hence it is important to understand the concepts involved in doing so.
+
+Next time we will learn about software packages in Linux and will practise this understanding by installing the world’s best text editor; Vim.
+
