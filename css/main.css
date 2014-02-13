@@ -19,7 +19,6 @@ a, a:hover, a:visited  {
   padding-left: 0.5em;
   padding-right: 0.5em;
   padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .header {
@@ -40,6 +39,7 @@ a, a:hover, a:visited  {
   border-top: 0.25em solid #2C343B;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-top: 1em;
   padding-bottom: 1em;
   font-size: 80%;
   color: #52616D;
