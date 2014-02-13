@@ -8,10 +8,6 @@ a, a:hover, a:visited  {
   color: inherit;
 }
 
-h1 !important {
-  text-decoration: none;
-}
-
 .wrapper {
   max-width: 45em;
   margin-left: auto;
@@ -26,7 +22,8 @@ h1 !important {
 .header {
   background-color: #2C343B;
   border-bottom: 1em solid #C44741;
-  padding-left: 0.5em;
+  padding-left: auto;
+  padding-right: auto;
   padding-top: 1em;
   padding-bottom: 1em;
   color: #E5E1D1;
@@ -35,12 +32,6 @@ h1 !important {
   text-decoration: none;
 }
 
-@media all and (max-device-width: 767px) {
-  .header h1 a {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 @media all and (min-device-width: 768px) {
   .site {
     margin-bottom: 3em;
