@@ -8,6 +8,12 @@ a, a:hover, a:visited  {
   color: inherit;
 }
 
+p img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
 .wrapper {
   max-width: 45em;
   margin-left: auto;
