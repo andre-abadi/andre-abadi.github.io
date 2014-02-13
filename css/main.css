@@ -35,6 +35,7 @@ a, a:hover, a:visited  {
   background-color: #FFFFFF;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  margin-top: 0em;
   font-size: 80%;
   color: #52616D;
 }
