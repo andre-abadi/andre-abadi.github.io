@@ -50,10 +50,8 @@ body {
 .footer img {
   position: relative;
   float: right;
-  top: -0.35em;
+  top: -0.4em;
   margin-left: 1em;
-  max-height: 2em;
-  width: auto;
 }
 
 a, a:hover, a:visited  {
