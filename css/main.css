@@ -4,9 +4,17 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3 {
+  text-decoration: none;
+}
+
+a, a:hover, a:visited  {
+  color: inherit;
+}
+
 .site {
   background-color: #FFFFFF;
-  max-width: 50em;
+  max-width: 45em;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5em;
