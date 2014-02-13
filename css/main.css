@@ -16,14 +16,14 @@ a, a:hover, a:visited  {
 }
 .site {
   background-color: #FFFFFF;
-
   padding-left: 0.5em;
   padding-right: 0.5em;
+  padding-top: 0.5em
 }
 .header {
   background-color: #2C343B;
   border-bottom: 1em solid #C44741;
-  padding: 1em;
+  padding-left: 0.5em;
   color: #E5E1D1;
   text-decoration: none;
 }
@@ -32,6 +32,7 @@ a, a:hover, a:visited  {
     margin-bottom: 3em;
     padding-left: 3em;
     padding-right: 3em;
+    padding-top: 3em;
   }
   .header {
     margin-top: 3em;
