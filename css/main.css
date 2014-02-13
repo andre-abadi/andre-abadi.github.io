@@ -15,7 +15,6 @@ p img {
 }
 
 .wrapper {
-  max-width: 45em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -57,6 +56,15 @@ p img {
 }
 
 @media all and (min-device-width: 768px) {
+
+  p img {
+    max-width: 35em;
+  }
+
+  .wrapper {
+    max-width: 45em;
+  }
+  
   .site {
     padding-left: 3em;
     padding-right: 3em;
