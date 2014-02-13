@@ -49,6 +49,7 @@ body {
 
 .footer img {
   float: right;
+  top: -0.5em;
   margin-left: 1em;
   max-height: 2em;
   width: auto;
