@@ -59,7 +59,10 @@ code {
   background-color: #E5E1D1;
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
-  padding: 0.05em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
   border: 0.1em solid #52616D;
 }
 
