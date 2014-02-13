@@ -11,6 +11,8 @@ body {
   margin-right: auto;
 }
 @media all and (min-device-width: 768px) {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  .site {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
 }
