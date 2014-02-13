@@ -4,10 +4,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3 {
-  text-decoration: none;
-}
-
 a, a:hover, a:visited  {
   color: inherit;
 }
@@ -27,4 +23,11 @@ a, a:hover, a:visited  {
     padding-left: 3em;
     padding-right: 3em;
   }
+}
+
+.header {
+  background-color: #2C343B;
+  border-bottom: 1em solid #C44741;
+  margin-bottom: 2.5em;
+  color: #E5E1D1;
 }
