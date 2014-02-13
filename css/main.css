@@ -1,10 +1,10 @@
 body {
   background-color: #E5E1D1;
-  font: 13.34px Helvetica, Arial, sans-serif;
   color: #2C343B;
+  font: Helvetica, Arial, sans-serif;
 }
 
 .site {
   background-color: #FFFFFF;
-  margin: 3em auto 2em;
+  margin: 3em, auto, 3em;
 }
