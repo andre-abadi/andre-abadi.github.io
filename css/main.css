@@ -60,10 +60,12 @@ a, a:hover, a:visited  {
   .header {
     margin-top: 3em;
     padding-left: 3em;
+    padding-right: 3em;
   }
   
   .footer {
     margin-bottom: 3em;
     padding-left: 3.75em;
+    padding-right: 3.75em;
   }
 }
