@@ -63,6 +63,7 @@ a, a:hover, a:visited  {
   }
   
   .footer {
-        margin-bottom: 3em;
+    margin-bottom: 3em;
+    padding-left: 3em;
   }
 }
