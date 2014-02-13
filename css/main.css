@@ -41,11 +41,3 @@ h1 !important {
     padding-left: 2em;
   }
 }
-
-.header {
-  background-color: #2C343B;
-  border-bottom: 1em solid #C44741;
-  padding: 1em;
-  color: #E5E1D1;
-  text-decoration: none;
-}
