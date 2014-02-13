@@ -51,6 +51,7 @@ body {
   float: right;
   margin-left: 1em;
   max-height: 1em;
+  width: auto;
 }
 
 a, a:hover, a:visited  {
@@ -61,6 +62,7 @@ p img {
   display: block;
   margin: 0 auto;
   max-width: 250px;
+  height: auto;
 }
 
 code {
