@@ -37,8 +37,8 @@ body {
   border-top: 0.25em solid #2C343B;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   font-size: 80%;
   color: #52616D;
 }
@@ -50,7 +50,7 @@ body {
 .footer img {
   float: right;
   margin-left: 1em;
-  max-height: 1em;
+  max-height: 2em;
   width: auto;
 }
 
