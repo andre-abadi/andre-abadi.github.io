@@ -4,15 +4,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-a, a:hover, a:visited  {
-  color: inherit;
-}
 
-p img {
-  display: block;
-  margin: 0 auto;
-  max-width: 250px;
-}
 
 .wrapper {
   margin-left: auto;
@@ -53,6 +45,20 @@ p img {
 
 .footer p {
   margin: 0em;
+}
+
+.footer img {
+  float: right;
+}
+
+a, a:hover, a:visited  {
+  color: inherit;
+}
+
+p img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
 }
 
 code {
