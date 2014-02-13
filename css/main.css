@@ -8,23 +8,33 @@ a, a:hover, a:visited  {
   color: inherit;
 }
 
-.site {
-  background-color: #FFFFFF;
+
+.wrapper {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
+}
+.site {
+  background-color: #FFFFFF;
+
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
+.header {
+  background-color: #2C343B;
+  border-bottom: 1em solid #C44741;
+  padding: 1em;
+  color: #E5E1D1;
+  text-decoration: none;
+}
 @media all and (min-device-width: 768px) {
   .site {
-    margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 3em;
     padding-right: 3em;
   }
   .header {
-    margin-bottom: 3em;
+    margin-top: 3em;
   }
 }
 
