@@ -28,7 +28,7 @@ If we can emulate a terminal from a graphical user interface, then why not a net
 
 Go ahead and [download PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) to somewhere you can easily get to. Open it up and take a moment to look around because you’ll be seeing this screen often.
 
-![PuTTY]({{ site.url }}/_img/PuTTY.jpg)
+![PuTTY](https://raw.github.com/dancingborg/dancingborg.github.io/master/_img/PuTTY.jpg)
 
 Here are the 3 things that are important, the rest is just bells and whistles.
 
@@ -40,13 +40,9 @@ You can see that I have saved some sessions (`osiris` and `raspberrypi`). They a
 
 Now head over to your XBMC and go to `System` then `System Info`. Here you should be able to observe the IP address that your local router has assigned the device running XBMC. For me it was `192.168.1.120` but for you it might be different.
 
-Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` are default values. I entered the following details but remember to replace my example IP with the one for your XBMC device.
+Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` are default values. Enter the IP address you found 
 
-	Host Name (or IP address):  192.168.1.120
-	Port: 22
-	Connection type: SSH 
-
-
+Click `Open` and a black window should appear. 
 
 ###Trying It Out
 
