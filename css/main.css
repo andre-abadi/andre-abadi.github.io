@@ -48,6 +48,7 @@ body {
 }
 
 .footer img {
+  position: relative;
   float: right;
   top: -0.5em;
   margin-left: 1em;
