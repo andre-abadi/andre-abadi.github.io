@@ -21,13 +21,11 @@ h1 !important {
   background-color: #FFFFFF;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  padding-top: 0.5em
 }
 .header {
   background-color: #2C343B;
   border-bottom: 1em solid #C44741;
   padding-left: 0.5em;
-  padding-top: 0.25em;
   color: #E5E1D1;
 }
 @media all and (min-device-width: 768px) {
