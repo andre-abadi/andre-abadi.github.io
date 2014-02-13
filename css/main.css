@@ -27,7 +27,7 @@ h1 !important {
   background-color: #2C343B;
   border-bottom: 1em solid #C44741;
   padding-left: 0.5em;
-  padding-top: 1em;
+  padding-top: 0.5em;
   color: #E5E1D1;
 }
 @media all and (min-device-width: 768px) {
@@ -40,6 +40,5 @@ h1 !important {
   .header {
     margin-top: 3em;
     padding-left: 3em;
-    padding-top: 3em;
   }
 }
