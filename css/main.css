@@ -44,7 +44,7 @@ a, a:hover, a:visited  {
 }
 
 .footer p {
-  margin: 0em;
+  margin-top: 0em;
 }
 
 @media all and (min-device-width: 768px) {
