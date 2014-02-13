@@ -47,10 +47,14 @@ Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` ar
 1.  Click `Open`
 2.  If a pop-up window appears, click `Yes`.
 3.  A black window should appear.
+
 4.  Inside will appear a prompt asking for your username.
+
   a.  If you have Raspbmc, type in `pi`
   b.  If you have XBMCbuntu, type in `xbmc`
+
 5. A prompt will ask for you password.
+
   a.  If you have Raspbmc, type in ‘raspberry’
   b.  If you have XBMCbuntu, just press enter.
 
