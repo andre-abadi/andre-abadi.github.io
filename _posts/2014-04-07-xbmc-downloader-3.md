@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: XBMC Downloader, Part 3
 categories: xbmc
 ---
