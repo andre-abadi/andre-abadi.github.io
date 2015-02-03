@@ -10,6 +10,7 @@ _Theory_
 _Deluge_
 _Daemon_
 _Startup_
+_Console Config_
 _Conclusion_
 
 ###Overview
@@ -126,7 +127,62 @@ Hopefully, you should get a result something like this:
     1184 eagle     20   0 50952  16m 6552 R   2.7  0.9   2:44.78 deluged
     1184 eagle     20   0 50952  16m 6552 S   2.3  0.9   2:44.85 deluged
 
-That means taht your Deluge daemon service started correctly. Well done!
+That means that your Deluge daemon service started correctly. Well done!
+
+###Console Config
+
+Deluge is almost ready for use. A few last bits to make life easier is to configure it to allow remote connections.
+
+`deluge-console`
+
+This starts the command-line Deluge interface, from where we can conduct some configuration.
+
+`config -s allow_remote True`
+
+- `config` make a configuration change
+- `-s allow_remote` modify the permission of connections to the program from outside the current computer
+- `True` allow connections from other computers
+
+Now we check the change with the following command, still in the command line Deluge interface.
+
+`config allow_remote`
+
+This should return the following:
+
+    >>> config allow_remote
+      allow_remote: True
+
+As you can see, Deluge has modified the setting, allowing connections to the program from outside the computer it's running on.
+
+Just hit `exit` and you're out of there. Now we'll halt the daemon process and modify some settings.
+
+`sudo pkill deluged`
+
+- `sudo` ...run as root
+- `pkill` kill the process
+- `deluged` with this name, i.e. our Deluge daemon
+
+Once the daemon has been halted, we can modify its settings. If you skip this step, you can change the settings but they won't actually be applied.
+
+First we add a user to the authorised users file:
+
+`vim /home/eagle/.config/deluge/auth`
+
+Add the following line to the file:
+
+`username:password:10`
+
+The above line use a username, password and privelege level. I'm keeping things simple for the purposes of demonstration.
+
+Now we'll modify some of the behaviour of the web interface.
+
+`vim /home/eagle/.config/deluge/web.conf`
+
+Find the line with `"default_daemon":",` and change it to `"default_daemon": "127.0.0.1:58846",`. This tells the web interface to look for a local daemon on port 58846 and attempt to connect to it, instead of asking you every time you log in to the web interface.
+
+Now you can go and download the Deluge [Windows client](http://dev.deluge-torrent.org/wiki/Download), and follow the directions [here](http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient#GTKUI) to connect it to the Daemon you just set up.
+
+Having the native Windows GUI allows you to use and change settings on the daemon with ease similar to if it were running on your Windows computer.
 
 ###Conclusion
 
