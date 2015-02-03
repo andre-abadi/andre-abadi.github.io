@@ -127,3 +127,7 @@ Hopefully, you should get a result something like this:
     1184 eagle     20   0 50952  16m 6552 S   2.3  0.9   2:44.85 deluged
 
 That means taht your Deluge daemon service started correctly. Well done!
+
+###Conclusion
+
+In this part of the guide, we have used a package manager to install a number of packages related to the Deluge torrent program. We then modified some configuration files, created a startup script and configured it to run the service automatically at startup.
