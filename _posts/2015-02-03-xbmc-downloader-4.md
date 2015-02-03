@@ -24,7 +24,7 @@ Flexget, being less popular, is not on the official repositories. We will use so
 
 My media library is on a different computer to my media PC (the XBMC downloader) so before we do any of that, I will quickly configure the downloader to automatically connect to the media library. If your media library is held locally, you don't need to worry about this step.
 
-##NFS Mount
+###NFS Mount
 
 First we create a folder (directory) where we will mount the networked media library.
 
