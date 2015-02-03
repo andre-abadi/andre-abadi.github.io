@@ -50,10 +50,9 @@ Once completed, there is some customising to be done.
 - `/etc/default/deluge/daemon` is the argument for `nano` and the text file we wish to open.
 
 Once we have opened this file, place the following text inside:
-```
-\# Configuration for /etc/init.d/deluge-daemon
-\# The init.d script will only run if this variable non-empty.
-DELUGED_USER="eagle"
-\# Should we run at startup?
-RUN_AT_STARTUP="YES"
-```
+
+    # Configuration for /etc/init.d/deluge-daemon
+    \# The init.d script will only run if this variable non-empty.
+    DELUGED_USER="eagle"
+    \# Should we run at startup?
+    RUN_AT_STARTUP="YES"
