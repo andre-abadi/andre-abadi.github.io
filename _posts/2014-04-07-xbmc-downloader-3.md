@@ -52,7 +52,8 @@ Once completed, there is some customising to be done.
 Once we have opened this file, place the following text inside:
 
     # Configuration for /etc/init.d/deluge-daemon
-    \# The init.d script will only run if this variable non-empty.
+    # The init.d script will only run if this variable non-empty.
+    # This tells the Deluge daemon which user it will run its process as
     DELUGED_USER="eagle"
-    \# Should we run at startup?
+    # Should we run at startup?
     RUN_AT_STARTUP="YES"
