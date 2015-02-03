@@ -9,6 +9,7 @@ _Overview_
 _Theory_
 _Deluge_
 _Daemon_
+_Startup_
 _Conclusion_
 
 ###Overview
@@ -41,7 +42,9 @@ You will be prompted for your password, followed by a confirmation that you wish
 
 The package manager should automatically retrieve a number of files, and install them in the correct location.
 
-Once completed, there is some customising to be done.
+###Daemon
+
+Once completed, there is some customising to be done. First we will edit the settings of the Deluge daemon.
 
 `sudo nano /etc/default/deluge-daemon`
 
@@ -57,3 +60,71 @@ Once we have opened this file, place the following text inside:
     DELUGED_USER="eagle"
     # Should we run at startup?
     RUN_AT_STARTUP="YES"
+
+This tells the Deluge daemon to run with the same permissions as us, and to run at startup.
+
+###Startup
+
+In the world of command line Linux, setting a service (background program) to run at startup isn't quite as easy as putting a shortcut in the Startup folder on Windows.
+
+In Linux, a program runs on startup if there exists a script to tell it so. These scripts are held in the `init.d` directory, and they start almost all essential services when your Linux operating system boots up.
+
+We're going to create an *init* script for the Deluge daemon.
+
+`sudo vim /etc/init.d/deluge-daemon`
+
+- `sudo` run as root
+- `vim` run the Vim text editor
+- `/etc/init.d/deluge-daemon` tells Vim to open the deluge-deamon file in the /etc/init.d/ directory. In this case, the file doesn't exist, so Vim will create a new file that will have this name and location when we hit save.
+
+Click on [this link](raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/deluge-daemon.txt), copy the contents of the file and paste them into Vim on your Linux computer. There's no need to understand the contents of this file. All you need to know is that it conducts a number of checks and starts the Deluge daemon.
+
+Linux is a lot more strict (and therefore secure) than Windows with regard to file permissions. By default, no file you create is executable. We are going to change the permissions of the *init* script we just created, so that it can be executable.
+
+`sudo chmod a+x /etc/init.d/deluge-daemon`
+
+- `sudo` run as root
+- `chmod` modify file permissions
+- `a+x` access and execute
+- `/etc/init.d/deluge-daemon` the file whose permissions to modify
+
+The above code has altered the permissions of our *init* script so that it can be executed, and the code within it to be run on startup.
+
+Just because it's in the `init.d` directory and executable, doesn't mean Linux will run it automatically. We tell the operating system to updated its list of startup services in `rc.d` with our new `deluge-daemon` startup script.
+
+`sudo update-rc.d deluge-daemon defaults`
+
+- `sudo` run as root
+- `update-rc.d` update startup service list
+- `deluge-daemon` use the named file (notice that `update-rc.d` knows to look in `/etc/init.d/` for this file)
+- `defaults` use default settings for this command
+
+Time to reboot and see if it all worked.
+
+`sudo reboot now`
+
+- `sudo` run as root
+- `reboot` restart the computer
+- `now` ...now
+
+Once you're back, check to see if the Deluge daemon is running.
+
+`top | grep deluged`
+
+- `top` list all running processes
+- `|` run the following command on the output of the `top` command
+- `grep` find the text following this command
+- `deluged` name of the Deluge daemon process
+
+Hopefully, you should get a result something like this:
+
+    1184 eagle     20   0 50952  16m 6552 S   6.1  0.9   2:44.42 deluged
+    1184 eagle     20   0 50952  16m 6552 S   2.7  0.9   2:44.50 deluged
+    1235 eagle     20   0 31080  17m 3792 S   0.3  1.0   0:07.77 deluge-web
+    1184 eagle     20   0 50952  16m 6552 S   2.0  0.9   2:44.56 deluged
+    1184 eagle     20   0 50952  16m 6552 S   2.7  0.9   2:44.64 deluged
+    1184 eagle     20   0 50952  16m 6552 S   2.0  0.9   2:44.70 deluged
+    1184 eagle     20   0 50952  16m 6552 R   2.7  0.9   2:44.78 deluged
+    1184 eagle     20   0 50952  16m 6552 S   2.3  0.9   2:44.85 deluged
+
+That means taht your Deluge daemon service started correctly. Well done!
