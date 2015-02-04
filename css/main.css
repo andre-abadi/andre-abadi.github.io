@@ -4,6 +4,8 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
+
 .wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -72,10 +74,9 @@ code {
   padding-top: 0em;
   padding-bottom: 0em;
   border: 0.1em solid #52616D;
-  word-wrap:break-word;
 }
 
-@media all and (min-device-width: 320px) {
+@media all and (min-device-width: 768px) {
 
   p img {
     max-width: 35em;
@@ -102,5 +103,4 @@ code {
     padding-left: 3.75em;
     padding-right: 3.75em;
   }
-
 }
