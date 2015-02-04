@@ -34,32 +34,25 @@ Go ahead and [download PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/put
 
 Here are the 3 things that are important, the rest is just bells and whistles.
 
-1.  `Host Name (or IP address)` is the network address to which you will connect.
-2.  `Port` should remain `22`.
-3.  `Connection type` is `SSH`.
+- `Host Name (or IP address)` is the network address to which you will connect.
+- `Port` should remain `22`.
+- `Connection type` is `SSH`.
 
 Now head over to your XBMC and go to `System` then `System Info`. Here you should be able to observe the IP address that your local router has assigned the device running XBMC. For me it was `192.168.1.120` but for you it might be different.
 
 Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` are default values. Enter the IP address you found on XBMC into the `Host Name (or IP address)` field.
 
 1.  Click `Open`
-
 2.  If a pop-up window appears, click `Yes`.
-
 3.  A black window should appear.
-
 4.  Inside will appear a prompt asking for your username.
-
   a.  If you have Raspbmc, type in `pi`
   b.  If you have XBMCbuntu, type in `xbmc`
-
 5. A prompt will ask for you password.
-
   a.  If you have Raspbmc, type in ‘raspberry’
   b.  If you have XBMCbuntu, just press enter (no password).
-
 6. A series of messages should appear
-  
+
 ! PuTTY, using a username and password for security, just connected to your Linux device via SSH over the network and started a shell program. That shell program, once started, returned a command prompt, which was sent back over the network to PuTTY, which displayed it on your screen. PuTTY is now emulating the terminal of your Linux device over the network.
 
 That’s the shell program on the host computer giving you a command prompt right there. Try typing in `who` and press enter. As mentioned in Part 1, we just passed a command to the shell program on the Linux device. It returned certain information pertaining to your current login, and once completed, returned to you another command prompt.
@@ -75,4 +68,3 @@ You then safely closed the remote connection to the shell program and ended the 
 We won’t go into quite as much detail in subsequent parts of this guide, but I felt it was important to give a good grounding in the very basics of what we are doing. The rest of the guide will all be done via SSH, hence it is important to understand the concepts involved in doing so.
 
 Next time we will learn about software packages in Linux and will practise this understanding by installing the world’s best text editor; Vim.
-
