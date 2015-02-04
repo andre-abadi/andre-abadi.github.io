@@ -33,7 +33,6 @@ Go ahead and [download PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/put
 ![PuTTY](https://raw.github.com/dancingborg/dancingborg.github.io/master/_img/PuTTY.jpg)
 
 Here are the 3 things that are important, the rest is just bells and whistles.
-
 - `Host Name (or IP address)` is the network address to which you will connect.
 - `Port` should remain `22`.
 - `Connection type` is `SSH`.
@@ -46,11 +45,11 @@ Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` ar
 2.  If a pop-up window appears, click `Yes`.
 3.  A black window should appear.
 4.  Inside will appear a prompt asking for your username.
-  a.  If you have Raspbmc, type in `pi`
-  b.  If you have XBMCbuntu, type in `xbmc`
+  - If you have *Raspbmc*, type in `pi`
+  - If you have *XBMCbuntu*, type in `xbmc`
 5. A prompt will ask for you password.
-  a.  If you have Raspbmc, type in ‘raspberry’
-  b.  If you have XBMCbuntu, just press enter (no password).
+  - If you have *Raspbmc*, type in ‘raspberry’
+  - If you have *XBMCbuntu*, just press enter (no password).
 6. A series of messages should appear
 
 PuTTY, using a username and password for security, just connected to your Linux device via SSH over the network and started a shell program. That shell program, once started, returned a command prompt, which was sent back over the network to PuTTY, which displayed it on your screen. PuTTY is now emulating the terminal of your Linux device over the network.

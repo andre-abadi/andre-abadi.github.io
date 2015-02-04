@@ -51,13 +51,10 @@ So it's time to set up get Flexget working for us. Flexget uses the flexible and
 
 Flexget is as good as its source of information. I use [showRSS](http://showrss.info/) because it is fairly quick with adding shows once they have been aired, and it gives them a nice formatting. It also does traditional torrent files (not magnets) which means you can tell it to skip the fluff files like *.jpgs* and all the other stuff that usually comes with scene torrents.
 
-####Option 1
+1. Don't sign up to Flexget. Use the individual feeds available publicly to check each feed for new episodes. In this case, use an [old version](https://raw.githubusercontent.com/dancingborg/.config_FlexGet/67495e11e2c74aa7a7e09af297ff6ed46b152832/config.yml) of my configuration files as a template.
+2. Sign up to showRSS, add all the TV shows you want, and get a custom RSS feed with all your shows. The downside to this, is that it doesn't go back as far, in case you missed a week. Once you're done with this, start a new configuration for Flexget.
 
-Don't sign up to Flexget. Use the individual feeds available publicly to check each feed for new episodes. In this case, use an [old version](https://raw.githubusercontent.com/dancingborg/.config_FlexGet/67495e11e2c74aa7a7e09af297ff6ed46b152832/config.yml) of my configuration files as a template.
-
-####Option 2
-
-Sign up to showRSS, add all the TV shows you want, and get a custom RSS feed with all your shows. The downside to this, is that it doesn't go back as far, in case you missed a week. Once you're done with this, start a new configuration for Flexget.
+Either way, you're going to have to populate your Flexget configuration file with something. Try this for a start:
 
 `vim /home/eagle/.flexget/config.yml`
 
