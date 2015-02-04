@@ -5,7 +5,6 @@ categories: xbmc
 ---
 
 ###In a Nutshell
-
 _Introduction_
 _The Command-line Interface_
 _XBMC in the world of Linux_
@@ -14,9 +13,7 @@ _Conclusion_
 ###Introduction
 
 The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
-
 I thought I'd write this guide as a sort of beginner's-cookbook into the world of Linux, teaching the basics with the goal of adding sophisticated functionality to a popular program available on Linux; XBMC.
-
 This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
 ###The Command-line Interface
