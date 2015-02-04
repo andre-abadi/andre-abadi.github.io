@@ -32,7 +32,6 @@ Lastly, and for some extra polish, I will set up an XBMC notification for the do
 First we create a folder (directory) where we will mount the networked media library.
 
 `sudo mkdir /media/Series`
-
 - `sudo` run as root
 - `mkrir` make a directory (folder)
 - `/media/Series` make a folder called `Series` in the `/media` folder
@@ -42,7 +41,6 @@ I have used configuration tools beyond the scope of this guide to make an NFS mo
 Let's have a look at what we can connect to from our downloader.
 
 `showmount -e 192.168.1.150`
-
 - `showmount` list NFS directories that can be mounted
 - `-e` external
 - `192.168.1.150` at this IP address
@@ -62,9 +60,7 @@ We will edit the `fstab` file to automatically connect to the `Series` folder on
 
 In this file, we will add the following line:
 
-    192.168.1.150:/volume1/Series  /media/Series  nfs
-    rsize=8192,wsize=8192,timeo=14,intr,_netdev
-
+    192.168.1.150:/volume1/Series  /media/Series  nfs rsize=8192,wsize=8192,timeo=14,intr,_netdev
 - `192.168.1.150:` the address from which to mount the folder
 - `/volume1/Series` the folder to mount
 - `/media/Series` where to mount it
@@ -92,7 +88,6 @@ Go ahead and copy the contents of [this file](https://gist.githubusercontent.com
 Now apply the file to your Git configuration:
 
 `git config --global core.excludesfile ~/.gitignore_global`
-
 - `git` Git
 - `config` configure Git
 - `--global` configure Git across all projects

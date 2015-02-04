@@ -78,10 +78,12 @@ code {
 }
 
 ul {
+  padding-top:0.5em;
   padding-left: 1em;
 }
 
 ol {
+  padding-top: 0.5em;
   padding-left: 1em;
 }
 
