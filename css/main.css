@@ -77,6 +77,10 @@ code {
   word-wrap: break-word;
 }
 
+ul {
+  padding-left: 0em;
+}
+
 li {
   padding-bottom: 0.5em
 }
