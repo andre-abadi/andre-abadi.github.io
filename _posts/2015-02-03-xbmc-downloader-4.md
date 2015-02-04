@@ -67,7 +67,7 @@ Then copy in the contents of my [latest version](https://raw.githubusercontent.c
 
 The following is a walkthrough of how my Flexget configuration file works. I have formatted it in valid YML, in case you wish to use it. Comment fields describing functionality begin with the `#` symbol. Be sure to checkout the [Flexget Wiki](http://flexget.com/wiki/Plugins) to get a better understanding of how the various plugins below actually work.
 
-Use [this link]() to see an annotated example of a configuration for Flexget.
+Use [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/config.yml) to see an annotated example of a configuration for Flexget.
 
 ###Conclusion
 
