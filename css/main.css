@@ -75,14 +75,14 @@ code {
   word-wrap:break-word;
 }
 
-@media all and (min-device-width: 320px) {
+ul {
+  webkit-padding-start: 0px;
+}
+
+@media all and (min-device-width: 768px) {
 
   p img {
     max-width: 35em;
-  }
-
-  ul {
-    webkit-padding-start: 0px;
   }
 
   .wrapper {
