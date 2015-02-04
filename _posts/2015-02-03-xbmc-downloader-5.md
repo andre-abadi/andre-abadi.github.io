@@ -10,6 +10,7 @@ _NFS Mount_
 _Git_
 _Github_
 _Crontab_
+_Notifications_
 _Conclusion_
 
 ###Overview
@@ -152,6 +153,8 @@ Have a look at [this link]() to see my version of the file. The large portion of
 2.  When the computer is started, delete any empty folders in the torrents folder. This is useful because as Deluge only moves the main file to the correct folder in the media library, it often leaves behind empty or near empty folders.
 3.  When the computer starts, run Flexget using our configuration file.
 
+Make sure that your cron table has **at least one line at the end** otherwise it won't work. This appears simply to be an idiosyncrasy of the cron system, you'll just have to live with it and remember.
+
 ###Notifications
 
 To add some polish to our setup, we will cause a "toaster" style notification to pop up on our XBMC interface whenever a torrent is started or finished. The use case is as follows:
@@ -175,3 +178,16 @@ Use the contents of [this link](https://raw.githubusercontent.com/dancingborg/da
 `chmod u+x /home/eagle/.config/deluge/finished.sh`
 
 For the last step, we need to use the Deluge GTK client available at this [link](http://dev.deluge-torrent.org/wiki/Download). Thanks to our previous work in the earlier parts, all you need to do is follow [these instructions](http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient#GTKUI) and your Deluge program will interface with the daemon running on your XBMC downloader.
+
+In the Deluge client, click `Settings` then `Plugins`. Find the plugin called `Execute` and tick it.
+
+Once the plugin is enabled, go `Settings` then `Execute`.
+
+The last step is simply to add the script as the command to execute for when torrents are started and finished.
+
+Torrent Complete: `/home/eagle/.config/deluge/finished.sh`
+Torrent Added: `/home/eagle/.config/deluge/started.sh`
+
+###Conclusion
+
+And there you have it. That's everything I did. Hopefully you've learnt a bit along the way, as I have certainly learnt a lot in writing this guide. Thank you for taking the time to read through the guide. I hope your humble XBMC installation is now a powerful, automated TV show and movie downloader.
