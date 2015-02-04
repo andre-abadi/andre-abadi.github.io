@@ -74,6 +74,7 @@ code {
   padding-top: 0em;
   padding-bottom: 0em;
   border: 0.1em solid #52616D;
+  word-wrap:inherit;
 }
 
 @media all and (min-device-width: 768px) {
@@ -85,7 +86,7 @@ code {
   .wrapper {
     max-width: 45em;
   }
-  
+
   .site {
     padding-left: 3em;
     padding-right: 3em;
@@ -97,7 +98,7 @@ code {
     padding-left: 3em;
     padding-right: 3em;
   }
-  
+
   .footer {
     margin-bottom: 3em;
     padding-left: 3.75em;
