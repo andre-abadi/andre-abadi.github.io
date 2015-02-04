@@ -76,7 +76,7 @@ code {
 }
 
 ul {
-  webkit-padding-start: 0px;
+  -webkit-padding-start: 0px;
 }
 
 @media all and (min-device-width: 320px) {
