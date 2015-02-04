@@ -71,4 +71,4 @@ Use [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github
 
 ###Conclusion
 
-In this part of the guide, we have installed Flexget using Python install tools, installed Git and cloned by personal Flexget configurations to the local directory. You can spend hours configuring Flexget for optimal downloads, and I certainly have done so. It's worth spending time with Flexget. It's a powerful tool.
+In this part of the guide, we have installed Flexget using Python install tools,  and populated a basic configuration file to download some movies and TV shows. This forms the last part of the basic guide on how to configure your XBMC downloader. The next part is mostly a self-reference for the author, and contains some extra functionality and more advanced tools like Git. You can spend hours configuring Flexget for optimal downloads, and I certainly have done so. It's worth spending time with Flexget. It's a powerful tool.
