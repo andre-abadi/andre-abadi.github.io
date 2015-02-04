@@ -6,24 +6,24 @@ categories: xbmc
 
 ###In a Nutshell
 _Overview_
-_Theory_
 _NFS Mount_
-_Installing Flexget_
 _Git_
-_Github SSH Keys_
-_Flexget Setup_
-_Flexget Guide_
+_Github_
 _Conclusion_
 
 ###Overview
 
-
+Now that the basic functionality of the downloader is completed, this part of the guide will deal with some more advanced concepts, and is mainly a self-reference for the author to replicate the original setup, should it be necessary.
 
 ###Theory
 
-
-
 My media library is on a different computer to my media PC (the XBMC downloader) so before we do any of that, I will quickly configure the downloader to automatically connect to the media library. If your media library is held locally, you don't need to worry about this step.
+
+In addition, with the number of revisions I've made to my Flexget configuration, I like to keep a backup. I use Git and more specifically, Github, to enact some version control on the configuration file. This also means that my work is more public, should anyone like to see it.
+
+I will laso use the Linux task scheduler `cron` to set up some automated cleanup of files. This prevents various directories from getting a bit clogged up. These tasks have been created as a result of my experience with the XBMC downloader over a number of months. They are entirely optional and should be used at your discretion.
+
+Lastly, and for some extra polish, I will set up an XBMC notification for the downloads occurring on that computer. It means that when someone turns on the XBMC computer, they can immediately know if the TV show they are waiting for has been or is being downloaded.
 
 ###NFS Mount
 
@@ -97,7 +97,7 @@ Now apply the file to your Git configuration:
 - `core.excludesfile` the universal exclude file
 - `~/.gitignore_global` use the file we just created as the universal exclude file
 
-###Github SSH Keys
+###Github
 
 If you're not going to be using Github as a backup, just go ahead and skip this section. This is mostly a self reference for the author, and only if you want to set up Github to track your Flexget configuration files.
 
@@ -134,3 +134,19 @@ Once we have added it as a key, we'll test that it is accepted.
 - `ssh` start a secure shell
 - `-T` only test the shell, don't actually open it
 - `git@github.com` connect to `github.com` with user `git`
+
+###Crontab
+
+Cron is a software utility in Linux that runs tasks based on a time schedule. Cron interprets the time schedule based on a *cron table*, shortened to `crontab`. In Ubuntu, instead of editing the file directly, `crontab` is wrapped in a program, so that it can be edited in a safer manner.
+
+`sudo crontab -e`
+
+- `sudo` run as root
+- `crontab` open the cron table
+- `-e` edit the cron table
+
+Have a look at [this link]() to see my version of the file. The large portion of comments is from the default cron table, and the entries are my own.
+
+1.  When the computer is started, clear out any crash logs from the home directory.
+2.  When the computer is started, delete any empty folders in the torrents folder. This is useful because as Deluge only moves the main file to the correct folder in the media library, it often leaves behind empty or near empty folders.
+3.  When the computer starts, run flexget using our configuration file.
