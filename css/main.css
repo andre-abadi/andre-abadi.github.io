@@ -79,7 +79,7 @@ ul {
   webkit-padding-start: 0px;
 }
 
-@media all and (min-device-width: 768px) {
+@media all and (min-device-width: 320px) {
 
   p img {
     max-width: 35em;
