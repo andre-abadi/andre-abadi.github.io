@@ -53,7 +53,7 @@ Go back to your computer and open up PuTTY. Remember that `SSH` and Port `22` ar
   b.  If you have XBMCbuntu, just press enter (no password).
 6. A series of messages should appear
 
-! PuTTY, using a username and password for security, just connected to your Linux device via SSH over the network and started a shell program. That shell program, once started, returned a command prompt, which was sent back over the network to PuTTY, which displayed it on your screen. PuTTY is now emulating the terminal of your Linux device over the network.
+PuTTY, using a username and password for security, just connected to your Linux device via SSH over the network and started a shell program. That shell program, once started, returned a command prompt, which was sent back over the network to PuTTY, which displayed it on your screen. PuTTY is now emulating the terminal of your Linux device over the network.
 
 That’s the shell program on the host computer giving you a command prompt right there. Try typing in `who` and press enter. As mentioned in Part 1, we just passed a command to the shell program on the Linux device. It returned certain information pertaining to your current login, and once completed, returned to you another command prompt.
 

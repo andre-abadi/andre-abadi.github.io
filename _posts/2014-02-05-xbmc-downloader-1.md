@@ -25,30 +25,28 @@ This first post will be an introduction into the Linux world, how it works and w
 
 A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) is one where the user enters textual commands to the operating system, which executes commands and in turn displays the results in text form. In the Microsoft Windows environment, this is known as 'CMD' or the '[Command Prompt](http://en.wikipedia.org/wiki/Command_Prompt)'.
 
-Don't worry about trying these. For now, look past the specifics and observe the commonalities.
+Don't worry about trying these. For now, look past the specifics and observe the commonalities. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
 
-1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
-
-  a.  `C:\Users\Microsoft>` in Microsoft Windows.
-  b.  `TiBook:~/Desktop taylor$` in Apple's Mac OS.
-  c.  `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
-  d.  `sh-2.05b$` in Unix.
+- `C:\Users\Microsoft>` in Microsoft Windows.
+- `TiBook:~/Desktop taylor$` in Apple's Mac OS.
+- `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
+- `sh-2.05b$` in Unix.
 
 The prompt will usually contain pertinent information, followed by an uncommon character such as `$` showing where your input begins. In the above examples you may notice information such as; the current time, current username, computer name and the current working directory. Because there is no desktop, these textual cues replace the visual ones you may be accustomed to in a Graphical User Interface.
 
-2. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
+1. The user enters a command, followed by one or more [arguments](http://en.wikipedia.org/wiki/Command-line_interface#Arguments), also known as parameters. For example:
 
-  a.  `ls -a` in UNIX or Linux lists all files including hidden ones.
-  b.  `del Document1.doc` in Windows or MS-DOS deletes said file.
-  c.  `ping google.com` in UNIX or Linux pings Google.
+- `ls -a` in UNIX or Linux lists all files including hidden ones.
+- `del Document1.doc` in Windows or MS-DOS deletes said file.
+- `ping google.com` in UNIX or Linux pings Google.
 
-3. The operating system executes the command and may or may not return text, depending on the command.
+2. The operating system executes the command and may or may not return text, depending on the command.
 
-  a.  Deleting a file may not return any text.
-  b.  Deleting a protected file may return a confirmation prompt.
-  c.  Pinging Google may return information about the command.
+- Deleting a file may not return any text.
+- Deleting a protected file may return a confirmation prompt.
+- Pinging Google may return information about the command.
 
-4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
+3. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
 
 All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
 
@@ -56,8 +54,8 @@ All command-line interfaces operate with the above syntax and grammar. It is imp
 
 The two most popular ways of running XBMC are:
 
-1. Downloading an ISO and running it as an operating system.
-2. Downloading it to your SD card and running it on your Raspberry Pi.
+- Downloading an ISO and running it as an operating system.
+- Downloading it to your SD card and running it on your Raspberry Pi.
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
