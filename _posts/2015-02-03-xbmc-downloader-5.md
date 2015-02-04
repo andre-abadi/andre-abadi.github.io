@@ -9,6 +9,7 @@ _Overview_
 _NFS Mount_
 _Git_
 _Github_
+_Crontab_
 _Conclusion_
 
 ###Overview
@@ -145,8 +146,30 @@ Cron is a software utility in Linux that runs tasks based on a time schedule. Cr
 - `crontab` open the cron table
 - `-e` edit the cron table
 
-Have a look at [this link]() to see my version of the file. The large portion of comments is from the default cron table, and the entries are my own.
+Have a look at [this link]() to see my version of the file. The large portion of comments is from the default cron table, and the entries are my own. Here is a brief overview of what each of the three entries does:
 
 1.  When the computer is started, clear out any crash logs from the home directory.
 2.  When the computer is started, delete any empty folders in the torrents folder. This is useful because as Deluge only moves the main file to the correct folder in the media library, it often leaves behind empty or near empty folders.
-3.  When the computer starts, run flexget using our configuration file.
+3.  When the computer starts, run Flexget using our configuration file.
+
+###Notifications
+
+To add some polish to our setup, we will cause a "toaster" style notification to pop up on our XBMC interface whenever a torrent is started or finished. The use case is as follows:
+
+> A lay person sits down on the day their favourite TV show is aired, and turns on the XBMC installation. The XBMC downloader should inform them which TV shows are being downloaded and should tell them when they are finished.
+
+To so, we will make use of the `Execute` plugin of Deluge to execute some *Shell Scripts* when a torrent is added and when a torrent is finished.
+
+`vim /home/eagle/.config/deluge/started.sh`
+
+Go ahead and past the contents of [this link]() into your new shell script. Save and close the file, then recall that we have to alter its permissions so that the file can be executed:
+
+`chmod u+x /home/eagle/.config/deluge/started.sh`
+
+Now we'll do the same but with a script for when it is finished.
+
+`vim /home/eagle/.config/deluge/finished.sh`
+
+Use the contents of [this link]().
+
+`chmod u+x /home/eagle/.config/deluge/finished.sh`
