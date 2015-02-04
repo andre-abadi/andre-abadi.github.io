@@ -162,7 +162,7 @@ To so, we will make use of the `Execute` plugin of Deluge to execute some *Shell
 
 `vim /home/eagle/.config/deluge/started.sh`
 
-Go ahead and past the contents of [this link]() into your new shell script. Save and close the file, then recall that we have to alter its permissions so that the file can be executed:
+Go ahead and past the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/started.sh) into your new shell script. Save and close the file, then recall that we have to alter its permissions so that the file can be executed:
 
 `chmod u+x /home/eagle/.config/deluge/started.sh`
 
@@ -170,6 +170,8 @@ Now we'll do the same but with a script for when it is finished.
 
 `vim /home/eagle/.config/deluge/finished.sh`
 
-Use the contents of [this link]().
+Use the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/finished.sh).
 
 `chmod u+x /home/eagle/.config/deluge/finished.sh`
+
+For the last step, we need to use the Deluge GTK client available at this [link](http://dev.deluge-torrent.org/wiki/Download). Thanks to our previous work in the earlier parts, all you need to do is follow [these instructions](http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient#GTKUI) and your Deluge program will interface with the daemon running on your XBMC downloader.

@@ -1,4 +1,4 @@
-#!/bin/sh
+﻿#!/bin/sh
 ### BEGIN INIT INFO
 # Provides:          deluge-daemon
 # Required-Start:    $local_fs $remote_fs
