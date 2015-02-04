@@ -77,8 +77,8 @@ code {
   word-wrap: break-word;
 }
 
-ul {
-  padding-bottom: 0.25em
+li {
+  padding-bottom: 0.5em
 }
 
 @media all and (min-device-width: 768px) {
