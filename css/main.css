@@ -77,6 +77,7 @@ code {
   padding-bottom: 0em;
   border: 0.1em solid #52616D;
   word-wrap: break-word;
+  text-align: left;
 }
 
 ul {
