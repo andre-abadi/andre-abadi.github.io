@@ -1,7 +1,7 @@
 ---
 layout: post
-title: XBMC Downloader, Part 4
-categories: xbmc
+title: Series Auto Torrent, Part 4
+categories: tvtorrent
 ---
 
 ###In a Nutshell
