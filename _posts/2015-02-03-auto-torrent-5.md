@@ -160,7 +160,7 @@ To so, we will make use of the `Execute` plugin of Deluge to execute some *Shell
 
 `vim /home/eagle/.config/deluge/started.sh`
 
-Go ahead and past the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/started.sh) into your new shell script. Save and close the file, then recall that we have to alter its permissions so that the file can be executed:
+Go ahead and past the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_content/started.sh) into your new shell script. Save and close the file, then recall that we have to alter its permissions so that the file can be executed:
 
 `chmod u+x /home/eagle/.config/deluge/started.sh`
 
@@ -168,7 +168,7 @@ Now we'll do the same but with a script for when it is finished.
 
 `vim /home/eagle/.config/deluge/finished.sh`
 
-Use the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/finished.sh).
+Use the contents of [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_content/finished.sh).
 
 `chmod u+x /home/eagle/.config/deluge/finished.sh`
 

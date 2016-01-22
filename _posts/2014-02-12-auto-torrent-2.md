@@ -30,7 +30,7 @@ Modern operating systems also allow terminals to be emulated over the network. T
 
 Go ahead and [download PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) to somewhere you can easily get to. Open it up and take a moment to look around because you’ll be seeing this screen often.
 
-[![PuTTY](https://raw.github.com/dancingborg/dancingborg.github.io/master/_img/PuTTY.jpg)](https://raw.github.com/dancingborg/dancingborg.github.io/master/_img/PuTTY.jpg)
+[![PuTTY](https://raw.github.com/dancingborg/dancingborg.github.io/master/_content/PuTTY.jpg)](https://raw.github.com/dancingborg/dancingborg.github.io/master/_content/PuTTY.jpg)
 
 Here are the 3 things that are important, the rest is just bells and whistles.
 - `Host Name (or IP address)` is the network address to which you will connect.

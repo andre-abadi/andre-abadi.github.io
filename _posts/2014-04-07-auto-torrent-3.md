@@ -78,7 +78,7 @@ We're going to create an *init* script for the Deluge daemon.
 - `vim` run the Vim text editor
 - `/etc/init.d/deluge-daemon` tells Vim to open the deluge-deamon file in the /etc/init.d/ directory. In this case, the file doesn't exist, so Vim will create a new file that will have this name and location when we hit save.
 
-Click on [this link](http://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/deluge-daemon.txt), copy the contents of the file and paste them into Vim on your Linux computer. There's no need to understand the contents of this file. All you need to know is that it conducts a number of checks and starts the Deluge daemon.
+Click on [this link](http://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_content/deluge-daemon.txt), copy the contents of the file and paste them into Vim on your Linux computer. There's no need to understand the contents of this file. All you need to know is that it conducts a number of checks and starts the Deluge daemon.
 
 Linux is a lot more strict (and therefore secure) than Windows with regard to file permissions. By default, no file you create is executable. We are going to change the permissions of the *init* script we just created, so that it can be executable.
 
