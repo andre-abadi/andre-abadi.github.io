@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Auto Torrent, Part 5
+title: Automatic TV Show Torrents on Kodi, Part 5
 categories: tvtorrent
 ---
 
