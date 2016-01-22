@@ -27,7 +27,7 @@ A [command-line interface](http://en.wikipedia.org/wiki/Command-line_interface) 
 
 Don't worry about trying these. For now, look past the specifics and observe the commonalities. The prompt will usually contain pertinent information, followed by an uncommon character such as `$` showing where your input begins. In the above examples you may notice information such as; the current time, current username, computer name and the current working directory. Because there is no desktop, these textual cues replace the visual ones you may be accustomed to in a Graphical User Interface.
 
-1. A sequence of characters, known as a [string](http://bit.ly/1juXrS1) 'prompts' the user for input. Examples include:
+1. A sequence of characters, known as a [string][1] _prompts_ the user for input. Examples include:
   - `C:\Users\Microsoft>` in Microsoft Windows.
   - `TiBook:~/Desktop taylor$` in Apple's Mac OS.
   - `[12:59] daniel@arch ~ $` in Arch, a flavour of Linux.
@@ -40,11 +40,10 @@ Don't worry about trying these. For now, look past the specifics and observe the
   - Deleting a file may not return any text.
   - Deleting a protected file may return a confirmation prompt.
   - Pinging Google may return information about the command.
-4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1.
+4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1. All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
+  [1]: https://en.wikipedia.org/wiki/String_(computer_science)
 
-All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
-
-###XBMC in the world of Linux
+###Kodi in the world of Linux
 
 The two most popular ways of running XBMC are:
 - Downloading an ISO and running it as an operating system.
@@ -52,8 +51,8 @@ The two most popular ways of running XBMC are:
 
 [GNU/Linux](http://en.wikipedia.org/wiki/Linux) is [free and open source](http://en.wikipedia.org/wiki/Free_and_open_source_software) family of operating systems that operate in a [very similar manner to UNIX](http://en.wikipedia.org/wiki/Unix-like).
 
-Linux itself is only a [Kernel](http://bit.ly/1lziWQ7) (the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
-
+Linux itself is only a [Kernel][1] (the core of the operating system) and not the whole. Groups and companies build software around the Linux Kernel, creating whole operating systems known as Linux Distributions. There are many flavours of Linux but no original.
+  [1]: https://en.wikipedia.org/wiki/Kernel_(operating_system)
 - [Debian](http://en.wikipedia.org/wiki/Debian) is a Linux Distribution containing only free software of the [GPL License](http://en.wikipedia.org/wiki/GNU_General_Public_License) type. It is one of the most common and widespread Linux Distributions. As such it is a Jack-of-all-trades but doesn’t excel at any one task. One example is its spartan [Graphical User Interface](http://en.wikipedia.org/wiki/Graphical_user_interface). This [link](http://upload.wikimedia.org/wikipedia/commons/0/0c/Debian_6.0.2.1.png) shows a very un-sophisticated desktop.
 - [Ubuntu](http://bit.ly/1iNj9hf) is a Linux Distribution based on Debian. Read that last sentence again. Think of Ubuntu as adding a well-polished surface to a Debian core. Ubuntu is popular because of its ease of use, installation and compatibility, and the way it builds an attractive and usable interface onto the proven Debian distribution.
   - [XBMCbuntu](http://wiki.xbmc.org/index.php?title=XBMCbuntu/FAQ) is a re-mix of Ubuntu. It has added media codecs and the XBMC program and instead of booting to the Ubuntu desktop, it boots straight into XBMC program interface.
