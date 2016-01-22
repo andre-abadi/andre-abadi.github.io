@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Series Auto Torrent, Part 4
+title: Auto Torrent, Part 4
 categories: tvtorrent
 ---
 
