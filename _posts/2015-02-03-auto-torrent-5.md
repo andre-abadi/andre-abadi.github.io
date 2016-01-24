@@ -61,6 +61,7 @@ We will edit the `fstab` file to automatically connect to the `Series` folder on
 In this file, we will add the following line:
 
     192.168.1.150:/volume1/Series  /media/Series  nfs rsize=8192,wsize=8192,timeo=14,intr,_netdev
+
 - `192.168.1.150:` the address from which to mount the folder
 - `/volume1/Series` the folder to mount
 - `/media/Series` where to mount it
