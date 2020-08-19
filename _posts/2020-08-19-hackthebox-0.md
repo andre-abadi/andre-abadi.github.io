@@ -6,7 +6,7 @@ title:  "Hack the Box, Part 0"
 
 [Link](https://www.hackthebox.eu/invite)
 
-1. Check Source Code
+## Check Source Code
 
 - Chrome *Elements* view identifies below:
 
@@ -15,7 +15,7 @@ title:  "Hack the Box, Part 0"
 <script defer src="https://www.hackthebox.eu/js/calm.js"></script>
 ```
 
-2. `calm.js`
+## calm.js
 
 - Is a red herring
 - Hints at location of correct file
@@ -56,7 +56,7 @@ console.log(`%c
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .`,"color:#9acc14; background:black; font-family: monospace");
 ```
 
-3. `inviteapi.min.js`
+## inviteapi.min.js
 
 - Contains obfuscated code
 
@@ -66,7 +66,7 @@ console.log(`%c
 eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0 3(){$.4({5:"6",7:"8",9:\'/b/c/d/e/f\',g:0(a){1.2(a)},h:0(a){1.2(a)}})}',18,18,'function|console|log|makeInviteCode|ajax|type|POST|dataType|json|url||api|invite|how|to|generate|success|error'.split('|'),0,{}))
 ```
 
-4. De-Obfuscate Javascript Code 
+## De-Obfuscate Javascript Code 
 
 - Paste `eval` function into [deobfuscatejavascript.com](http://deobfuscatejavascript.com/#)
 - Result:
@@ -87,7 +87,7 @@ function makeInviteCode() {
 }
 ```
 
-5. Run Code
+## Run Code
 
 - Chrome *Console* returns `undefined`
 - Navigating to [hackthebox.eu/api/invite/how/to/generate](hackthebox.eu/api/invite/how/to/generate) results in a page displaying "Whoops, looks like something went wrong."
