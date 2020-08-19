@@ -1,6 +1,6 @@
 name: dancingborg.github.io
-title: dancingborg.github.io
-description: Yet another personal Github page.
+title: Hacker Notes
+description: An attempt at reducing entropy.
 markdown: redcarpet
 redcarpet:
   extensions:
