@@ -1,4 +1,6 @@
-name: dancingborg
+name: dancingborg.github.io
+title: dancingborg.github.io
+description: Yet another personal Github page.
 markdown: redcarpet
 redcarpet:
   extensions:
