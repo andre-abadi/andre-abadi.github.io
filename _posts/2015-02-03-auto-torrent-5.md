@@ -4,7 +4,7 @@ title: Automatic TV Show Torrents on Kodi, Part 5
 categories: tvtorrent
 ---
 
-###In a Nutshell
+### In a Nutshell
 _Overview_
 _NFS Mount_
 _Git_
@@ -13,11 +13,11 @@ _Crontab_
 _Notifications_
 _Conclusion_
 
-###Overview
+### Overview
 
 Now that the basic functionality of the downloader is completed, this part of the guide will deal with some more advanced concepts, and is mainly a self-reference for the author to replicate the original setup, should it be necessary.
 
-###Theory
+### Theory
 
 My media library is on a different computer to my media PC (the XBMC downloader) so before we do any of that, I will quickly configure the downloader to automatically connect to the media library. If your media library is held locally, you don't need to worry about this step.
 
@@ -27,7 +27,7 @@ I will laso use the Linux task scheduler `cron` to set up some automated cleanup
 
 Lastly, and for some extra polish, I will set up an XBMC notification for the downloads occurring on that computer. It means that when someone turns on the XBMC computer, they can immediately know if the TV show they are waiting for has been or is being downloaded.
 
-###NFS Mount
+### NFS Mount
 
 First we create a folder (directory) where we will mount the networked media library.
 
@@ -72,7 +72,7 @@ Do a quick reboot to make sure things are working:
 
 `sudo reboot now`
 
-###Git
+### Git
 
 Git is an incredibly versatile version control system. I host my Flexget configuration files on the popular [Github](http://www.github.com) site, allowing easy access and for anyone to see my work.
 
@@ -95,7 +95,7 @@ Now apply the file to your Git configuration:
 - `core.excludesfile` the universal exclude file
 - `~/.gitignore_global` use the file we just created as the universal exclude file
 
-###Github
+### Github
 
 If you're not going to be using Github as a backup, just go ahead and skip this section. This is mostly a self reference for the author, and only if you want to set up Github to track your Flexget configuration files.
 
@@ -133,7 +133,7 @@ Once we have added it as a key, we'll test that it is accepted.
 - `-T` only test the shell, don't actually open it
 - `git@github.com` connect to `github.com` with user `git`
 
-###Crontab
+### Crontab
 
 Cron is a software utility in Linux that runs tasks based on a time schedule. Cron interprets the time schedule based on a *cron table*, shortened to `crontab`. In Ubuntu, instead of editing the file directly, `crontab` is wrapped in a program, so that it can be edited in a safer manner.
 
@@ -151,7 +151,7 @@ Have a look at [this link]() to see my version of the file. The large portion of
 
 Make sure that your cron table has **at least one line at the end** otherwise it won't work. This appears simply to be an idiosyncrasy of the cron system, you'll just have to live with it and remember.
 
-###Notifications
+### Notifications
 
 To add some polish to our setup, we will cause a "toaster" style notification to pop up on our XBMC interface whenever a torrent is started or finished. The use case is as follows:
 
@@ -184,6 +184,6 @@ The last step is simply to add the script as the command to execute for when tor
 Torrent Complete: `/home/eagle/.config/deluge/finished.sh`
 Torrent Added: `/home/eagle/.config/deluge/started.sh`
 
-###Conclusion
+### Conclusion
 
 And there you have it. That's everything I did. Hopefully you've learnt a bit along the way, as I have certainly learnt a lot in writing this guide. Thank you for taking the time to read through the guide. I hope your humble XBMC installation is now a powerful, automated TV show and movie downloader.

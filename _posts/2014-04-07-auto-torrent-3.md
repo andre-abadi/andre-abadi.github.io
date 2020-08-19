@@ -4,7 +4,7 @@ title: Automatic TV Show Torrents on Kodi, Part 3
 categories: tvtorrent
 ---
 
-###In a Nutshell
+### In a Nutshell
 _Overview_
 _Theory_
 _Deluge_
@@ -13,10 +13,10 @@ _Startup_
 _Console Config_
 _Conclusion_
 
-###Overview
+### Overview
 In the last part of the guide we made a connection to our XBMC device using SSH. This time we will be using that connection to install a number of programs. We will be exploring concepts such as package managers, configuration files and daemons.
 
-###Theory
+### Theory
 
 In Windows one downloads a pre-compiled, executable file from a website and then manually runs it on the target computer. In Linux it is more common to use a package management system, which automatically sources and downloads the latest and correctly compatible files, and installs them for you.
 
@@ -24,7 +24,7 @@ Because there are many different versions of Linux and many different distributi
 
 In Ubuntu, users that are administrators are called super users. From the command line it is very easy to destroy the operating system with an errant delete command. As such, it forces users to prepend the `sudo` command when executing potentially dangerous code. It is short for _Super User Do_.
 
-###Deluge
+### Deluge
 
 Log into your XBMC and when presented by the command prompt, enter the following:
 
@@ -43,7 +43,7 @@ You will be prompted for your password, followed by a confirmation that you wish
 
 The package manager should automatically retrieve a number of files, and install them in the correct location.
 
-###Daemon
+### Daemon
 
 Once completed, there is some customising to be done. First we will edit the settings of the Deluge daemon.
 
@@ -64,7 +64,7 @@ Once we have opened this file, place the following text inside:
 
 This tells the Deluge daemon to run with the same permissions as us, and to run at startup.
 
-###Startup
+### Startup
 
 In the world of command line Linux, setting a service (background program) to run at startup isn't quite as easy as putting a shortcut in the Startup folder on Windows.
 
@@ -129,7 +129,7 @@ Hopefully, you should get a result something like this:
 
 That means that your Deluge daemon service started correctly. Well done!
 
-###Console Config
+### Console Config
 
 Deluge is almost ready for use. A few last bits to make life easier is to configure it to allow remote connections.
 
@@ -184,6 +184,6 @@ Now you can go and download the Deluge [Windows client](http://dev.deluge-torren
 
 Having the native Windows GUI allows you to use and change settings on the daemon with ease similar to if it were running on your Windows computer.
 
-###Conclusion
+### Conclusion
 
 In this part of the guide, we have used a package manager to install a number of packages related to the Deluge torrent program. We then modified some configuration files, created a startup script and configured it to run the service automatically at startup.

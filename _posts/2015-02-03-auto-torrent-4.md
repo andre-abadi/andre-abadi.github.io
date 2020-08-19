@@ -4,7 +4,7 @@ title: Automatic TV Show Torrents on Kodi, Part 4
 categories: tvtorrent
 ---
 
-###In a Nutshell
+### In a Nutshell
 _Overview_
 _Theory_
 _Installing Flexget_
@@ -12,13 +12,13 @@ _Flexget Setup_
 _Flexget Guide_
 _Conclusion_
 
-###Overview
+### Overview
 
 In the last part, we spent most of our time installing and configuring Deluge as our torrent download program. We learnt a bit about startup scripting and added some configuration files.
 
 Deluge is one half of our automatic downloading system. The other half, is a program called [Flexget](http://flexget.com/). Flexget *really is magic*. The limit is really your imagination, this program can download just about anything, given the right input.
 
-###Theory
+### Theory
 
 Deluge and Flexget are both written in the [Python](https://www.python.org/) language. Deluge, being much more popular, has an entry in the official Ubuntu repositories, allowing us to use a package manager to easily install it.
 
@@ -26,7 +26,7 @@ Flexget, being less popular, is not on the official repositories. We will use so
 
 My media library is on a different computer to my media PC (the XBMC downloader) so before we do any of that, I will quickly configure the downloader to automatically connect to the media library. If your media library is held locally, you don't need to worry about this step.
 
-###Installing Flexget
+### Installing Flexget
 
 To install Flexget, we we need to first install some Python installation tools. Just as we use a package manager to install Deluge, we use a Python package manager to install Flexget.
 
@@ -45,7 +45,7 @@ Thanks to the programs we just installed, it's now as easy as:
 - `easy_install` the Python equivalent of `apt-get install`
 - `flexget` install Flexget
 
-###Flexget Setup
+### Flexget Setup
 
 So it's time to set up get Flexget working for us. Flexget uses the flexible and rather sensible [YML](http://fdik.org/yml/) markup language for its settings. It's worth getting acquainted with YML because it's versatile but quite strict with indentation. If in doubt, run `flexget -v` and it will tell if and where you have made any mistakes.
 
@@ -60,12 +60,12 @@ Either way, you're going to have to populate your Flexget configuration file wit
 
 Then copy in the contents of my [latest version](https://raw.githubusercontent.com/dancingborg/.config_FlexGet/master/config.yml) into your configuration file manually.
 
-###Flexget Guide
+### Flexget Guide
 
 The following is a walkthrough of how my Flexget configuration file works. I have formatted it in valid YML, in case you wish to use it. Comment fields describing functionality begin with the `#` symbol. Be sure to checkout the [Flexget Wiki](http://flexget.com/wiki/Plugins) to get a better understanding of how the various plugins below actually work.
 
 Use [this link](https://raw.githubusercontent.com/dancingborg/dancingborg.github.io/master/_misc/config.yml) to see an annotated example of a configuration for Flexget.
 
-###Conclusion
+### Conclusion
 
 In this part of the guide, we have installed Flexget using Python install tools,  and populated a basic configuration file to download some movies and TV shows. This forms the last part of the basic guide on how to configure your XBMC downloader. The next part is mostly a self-reference for the author, and contains some extra functionality and more advanced tools like Git. You can spend hours configuring Flexget for optimal downloads, and I certainly have done so. It's worth spending time with Flexget. It's a powerful tool.

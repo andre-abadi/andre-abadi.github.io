@@ -4,14 +4,14 @@ title: Automatic TV Show Torrents on Kodi, Part 1
 categories: tvtorrent
 ---
 
-###In a Nutshell
+### In a Nutshell
 
 _Introduction_
 _The Command-line Interface_
 _XBMC in the world of Linux_
 _Conclusion_
 
-###Introduction
+### Introduction
 
 The purpose of this guide as a whole is to modify a Linux-based XBMC distribution into an automated downloading station.
 
@@ -19,7 +19,7 @@ I thought I'd write this guide as a sort of beginner's-cookbook into the world o
 
 This first post will be an introduction into the Linux world, how it works and where your project will fit in.
 
-###The Command-line Interface
+### The Command-line Interface
 
 [UNIX](http://en.wikipedia.org/wiki/Unix) is a computer operating system designed to be operated from a command-line interface. It is one of the oldest operating systems and most modern operating systems are based upon it and its [philosophy](http://en.wikipedia.org/wiki/Unix_philosophy).
 
@@ -43,7 +43,7 @@ Don't worry about trying these. For now, look past the specifics and observe the
 4. Once the operating system has completed the command and is ready for another, it will return the command prompt on a new line. From here you go back to step 1. All command-line interfaces operate with the above syntax and grammar. It is important to understand this most basic language as it applies to all operating systems. Don’t worry, with this skill we will _learn by doing_ and I’ll explain each command and its arguments for you.
   [1]: https://en.wikipedia.org/wiki/String_(computer_science)
 
-###Kodi in the world of Linux
+### Kodi in the world of Linux
 
 The two most popular ways of running XBMC are:
 - Downloading an ISO and running it as an operating system.
@@ -59,7 +59,7 @@ Linux itself is only a [Kernel][1] (the core of the operating system) and not th
 - [Raspbian](http://www.raspbian.org/) is a version of Debian compiled for the unique [ARM](http://en.wikipedia.org/wiki/ARM_architecture) processor contained within the [Raspberry Pi](http://www.raspberrypi.org/about). It is otherwise identical to ‘ordinary’ Debian.
   - [Raspbmc](http://www.raspbmc.com/about/) is to Raspbian what XBMCbuntu is to Ubuntu. The Ubuntu step is missed for the sake of performance on the not-so-powerful Raspberry Pi.
 
-###Conclusion
+### Conclusion
 
 Hopefully this initial theory lesson has given you a picutre of where in the world of computing you are operating and how the system with which you are interacting came to be.
 
