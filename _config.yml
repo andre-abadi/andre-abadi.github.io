@@ -1,6 +1,5 @@
 name: dancingborg
 markdown: redcarpet
-pygments: true
 redcarpet:
   extensions:
     - hard_wrap
