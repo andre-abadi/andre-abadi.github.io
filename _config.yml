@@ -9,4 +9,4 @@ redcarpet:
     - strikethrough
     - fenced_code_blocks
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minimal
