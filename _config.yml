@@ -1,6 +1,6 @@
-name: Andre Abadi
-title: Andre Abadi's Notes
-description: An attempt at reducing entropy.
+name: Entropy Reduction
+title: Entropy Reduction
+description: Notes of another digital native.
 redcarpet:
   extensions:
     - hard_wrap
