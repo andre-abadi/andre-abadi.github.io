@@ -1,6 +1,6 @@
-name: Entropy Reduction
+#name: Entropy Reduction
 title: Entropy Reduction
-description: Notes of another digital native.
+description: Personal Log of Yet Another Digital Native.
 redcarpet:
   extensions:
     - hard_wrap
