@@ -15,3 +15,7 @@ title: Prusa Purchase Costs
 || [GST](https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/gst-and-other-taxes) (charged by FedEx) ||| $117.70 | $1355.92 |
 || [Customs Electronic Entry Fee](https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/charges/import-processing-charge) (charged by FedEx) ||| $88.00 | $1443.92 |
 ||Total *Landed* Cost |||| **$1443.92** |
+
+# Notes and Thoughts
+- Shipped faster than expected and faster than 1-2 weeks specified by the [shipping table](https://www.help.prusa3d.com/en/article/shipping-information_2297)
+- Entry fees within expectations (a few hundred dollars)
