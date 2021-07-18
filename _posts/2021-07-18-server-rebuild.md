@@ -131,3 +131,5 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 # Restore Docker Images
 - `mkdir ~/.docker && cd ~/.docker`
 - `tar -xf plex.tar`
+- `sudo docker-copmpose up -d`
+- `sudo docker logs -f plex`
