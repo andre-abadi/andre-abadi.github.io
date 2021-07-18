@@ -16,3 +16,10 @@ date: 2021-07-18 19:03:00 +0800
 sudo apt install -y \
 net-tools
 ```
+# Housekeeping
+## Set Timezone
+- `sudo timedatectl set-timezone XXXXX\XXXXX`
+## Enable password-less sudo
+- `sudo visudo`
+- Replace: `%sudo   ALL=(ALL:ALL) ALL'
+- With: `%sudo   ALL=(ALL:ALL) NOPASSWD:ALL`
