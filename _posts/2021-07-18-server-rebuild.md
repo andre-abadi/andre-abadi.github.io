@@ -60,6 +60,13 @@ net-tools
 - `sudo apt update`
 - `sudo apt install -y docker-ce docker-ce-cli containerd.io`
 
+# Docker Without Sudo
+[Reference](https://askubuntu.com/a/477554)
+- `sudo groupadd docker`
+- ` sudo gpasswd -a $USER docker`
+- `newgrp docker`
+- ` docker run hello-world`
+
 # NFS Mounts
 ```
 sudo mkdir \
