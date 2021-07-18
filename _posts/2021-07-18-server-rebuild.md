@@ -116,6 +116,14 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 - Required restart of Docker engine with new runtime: `sudo systemctl restart docker`
 - Test: `sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
 
+# Disable Swap File
+- [Reference Article](https://www.tecmint.com/add-swap-space-on-ubuntu/)
+- Check for swap file: `sudo swapon --show`
+- `sudo swapoff -v /swap.img`
+- `sudo rm -rf /swap.img`
+- `sudo vim /etc/fstab`
+- Remove the line starting with `/swap.img`
+
 # Restore Docker Images
 - `mkdir ~/.docker && cd ~/.docker`
 - `tar -xf plex.tar`
