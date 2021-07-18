@@ -82,7 +82,21 @@ sudo mkdir \
 10.1.1.150:/volume1/movies /volume1/movies nfs defaults 0 0
 10.1.1.150:/volume1/homevideos /volume1/homevideos nfs defaults 0 0
 10.1.1.150:/volume1/downloads /volume1/downloads nfs defaults 0 0
+10.1.1.150:/volume1/backup /volume1/downloads nfs defaults 0 0
 ```
 
 # Docker Wait for NFS
+- `sudo mkdir /etc/systemd/system/docker.service.d`
+- `sudo vim /etc/systemd/system/docker.service.d/override.conf`
+```
+[Unit]
+RequiresMountsFor=/volume1/downloads /volume1/homevideos /volume1/movies /volume1/music /volume1/series /volume1/transfer
+After=volume1-downloads.mount volume1-homevideos.mount volume1-movies.mount volume1-music.mount volume1-series.mount volume1-transfer.mount
+Requires=volume1-downloads.mount volume1-homevideos.mount volume1-movies.mount volume1-music.mount volume1-series.mount volume1-transfer.mount
+```
+- `sudo service docker reload`
 
+# Docker Compose
+- `sudo apt install -y docker-compose`
+
+# Nvidia Docker
