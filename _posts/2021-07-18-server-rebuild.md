@@ -128,6 +128,15 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 - [Reference Article](https://linuxconfig.org/how-to-disable-enable-gui-on-boot-in-ubuntu-20-04-focal-fossa-linux-desktop)
 - `sudo systemctl set-default multi-user`
 
+# Re-Mount 2nd HDD
+- Create mount point: `sudo mkdir /cctv`
+- Note disk name at: `sudo fdisk -l | grep /dev/sd`
+- `blkid | grep /dev/sd`
+- Copy UUID (first one)
+- `sudo vim /etc/fstab`
+- `/dev/disk/by-uuid/83e98c09-3e5e-4125-8f5e-65fa2196858f /cctv ext4 defaults 0 0`
+- `sudo mount -a`
+
 # Restore Docker Images
 - `mkdir ~/.docker && cd ~/.docker`
 - `tar -xf plex.tar`
