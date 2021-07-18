@@ -47,10 +47,7 @@ network:
 ```
 sudo apt install -y \
 nfs-common \
-net-tools \
-glances \
-neofetch \
-glances
+net-tools
 ```
 
 # Docker
@@ -72,7 +69,8 @@ sudo mkdir \
 /volume1/music \
 /volume1/movies \
 /volume1/homevideos \
-/volume1/downloads
+/volume1/downloads \
+/volume1/backup
 ```
 - `sudo vim /etc/fstab`
 ```
@@ -101,7 +99,7 @@ Requires=volume1-downloads.mount volume1-homevideos.mount volume1-movies.mount v
 
 # Nvidia Driver
 - `apt search nvidia-driver`
-- Find largest number of `nvidia-driver-XXX`
+- Find largest value of `nvidia-driver-XXX`
 - `sudo apt install -y nvidia-driver-465`
 - `sudo reboot`
 
@@ -115,5 +113,9 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 ```
 - `sudo apt update`
 - `sudo apt install -y nvidia-docker2`
-- `sudo systemctl restart docker`
-- `sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
+- Required restart of Docker engine with new runtime: `sudo systemctl restart docker`
+- Test: `sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi`
+
+# Restore Docker Images
+- `mkdir ~/.docker && cd ~/.docker`
+- `tar -xf plex.tar`
