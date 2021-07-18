@@ -124,6 +124,10 @@ distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 - `sudo vim /etc/fstab`
 - Remove the line starting with `/swap.img`
 
+# Disable UI
+- [Reference Article](https://linuxconfig.org/how-to-disable-enable-gui-on-boot-in-ubuntu-20-04-focal-fossa-linux-desktop)
+- `sudo systemctl set-default multi-user`
+
 # Restore Docker Images
 - `mkdir ~/.docker && cd ~/.docker`
 - `tar -xf plex.tar`
