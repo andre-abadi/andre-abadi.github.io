@@ -20,3 +20,4 @@ date: 2021-07-15 20:03:00 +0800
 # Notes and Thoughts
 - Shipped faster than expected and faster than 1-2 weeks specified by the [shipping table](https://www.help.prusa3d.com/en/article/shipping-information_2297)
 - Entry fees within expectations (a few hundred dollars)
+- The printer came with the Lubricant applicator kit, so purchasing it was somewhat redundant.
