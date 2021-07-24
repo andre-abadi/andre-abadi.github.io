@@ -2,6 +2,7 @@
 layout: default
 title: Prusa Purchase Costs
 date: 2021-07-15 20:03:00 +0800
+categories: 3d-printing
 ---
 
 # A Table
