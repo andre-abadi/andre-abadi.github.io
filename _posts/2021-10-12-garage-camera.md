@@ -18,6 +18,7 @@ categories: 3d-printing, home automation
 # Actions
 - Printed [case](https://www.thingiverse.com/thing:4839587) in PolyMaker PolyTerra PLA black.
 - Flashed ESP32-CAM-CH340 with ESPHome
+- Swapped in a wide angle lens
 - Zip-tied to convenient location in garage
 
 # Pictures
