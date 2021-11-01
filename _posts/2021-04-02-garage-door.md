@@ -85,4 +85,5 @@ cover:
 - Project boxes don't adhere well to hot glue
 - Hot glue must cool completely before it gets all its binding effect
 - ESP-01S has lots of [fiddly boot moods](https://rabbithole.wwwdotorg.org/2017/03/28/esp8266-gpio.html)
-- Sometimes ESP-01S does not boot if on power restore
+- Sometimes ESP-01S does not boot if on power restore\
+- Soldering sans flux is a bad time
