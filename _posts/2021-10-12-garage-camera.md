@@ -20,6 +20,10 @@ categories: 3d-printing, home automation
 - Flashed ESP32-CAM-CH340 with ESPHome
 - Zip-tied to convenient location in garage
 
+# Pictures
+![garage-camera](assets/img/2021-10-12-garage-camera.jpg)
+
+# Code
 ```yaml
 # https://www.esphome-devices.com/devices/ESP32-CAM
 esp32_camera:
