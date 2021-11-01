@@ -6,10 +6,8 @@ categories: 3d-printing, home automation
 ---
 
 # Purpose
-- Self made sensor node
-  - PIR
-  - Temp/Humidity (SHT31)
-  - Status LED
+- Camera to see if garage door safe to close
+- Not for recording or surveillance use, hence didn't need high resolution or quality
 
 # Reference
 - [Case with kodak thread for ESP32CAM + CH340](https://www.thingiverse.com/thing:4839587)
