@@ -16,7 +16,7 @@ categories: 3d-printing, home automation
 - [ESP32 Camera Component](https://esphome.io/components/esp32_camera.html#configuration-for-ai-thinker-camera)
 
 # Actions
-- Printed [case]((https://www.thingiverse.com/thing:4839587) in PolyMaker PolyTerra PLA black.
+- Printed [case](https://www.thingiverse.com/thing:4839587) in PolyMaker PolyTerra PLA black.
 - Flashed ESP32-CAM-CH340 with ESPHome
 - Zip-tied to convenient location in garage
 
