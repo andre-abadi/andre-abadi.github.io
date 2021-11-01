@@ -21,7 +21,7 @@ categories: 3d-printing, home automation
 - Zip-tied to convenient location in garage
 
 # Pictures
-![garage-camera](assets/img/2021-10-12-garage-camera.jpg)
+![garage-camera](/assets/img/2021-10-12-garage-camera.jpg)
 
 # Code
 ```yaml
