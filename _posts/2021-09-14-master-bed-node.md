@@ -10,6 +10,7 @@ categories: 3d-printing, home automation
   - PIR
   - Temp/Humidity (SHT31)
   - Status LED
+- Basis for automations
 
 # Reference
 - [ESP8266-D1mini-DHT22-HC-SR501](https://www.thingiverse.com/thing:4725408)
@@ -22,6 +23,10 @@ categories: 3d-printing, home automation
 - Dupont cables to connect everything
 - Hot glued everything in place
 - Flashed Wemos D1 Mini
+
+# Pictures
+
+![Picture](/assets/img/2021-09-14-master-bed-node.jpg)
 
 # Code
 ```yaml
