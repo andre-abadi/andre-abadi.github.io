@@ -11,7 +11,7 @@ categories: home automation
 - Temp/humidity sensing would be good too
 
 # References
-[P1030 • 25 Point Solderless Breadboard Pack 7]()https://www.altronics.com.au/p/p1030-25-way-breadboards-pk7/
+[P1030 â€¢ 25 Point Solderless Breadboard Pack 7]()https://www.altronics.com.au/p/p1030-25-way-breadboards-pk7/
 
 # Actions
 - Project box from Altronics
@@ -19,6 +19,11 @@ categories: home automation
 - Kid chose buttons wired in parallel
 - Drilled out room for the DHT11 to protrude
 - Drilled out room for buttons
+- Bent DHT11 to protrude from housing
+- Hot glued ESP-01S relay board and buttons in place
+- Used DuPont wires to set up the breadboard
+- Used the [Frenck trick](https://frenck.dev/diy-smart-doorbell-for-just-2-dollar/) to get an extra GPIO from the ESP-01S
+- Mounted near bed with 3M detachable adhesives
 
 # Pictures
 ![printer-light](/assets/img/2021-03-23-kids-bedside-node.jpg)
@@ -55,3 +60,4 @@ binary_sensor:
 - Filters on buttons made effective 'timeout' preventing over-use of button
 - Soldering of buttons sans flux caused green button light to stop working
 - Hard wiring was best known at the time, but in retrospect a micro USB port could have been more elegant
+- Drilling out neat holes was difficult, [step drill bit](https://www.bunnings.com.au/craftright-10-30mm-step-drill-bit_p6290411) bought much after the fact would have been perfect
