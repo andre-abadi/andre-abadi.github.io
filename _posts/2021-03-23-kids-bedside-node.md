@@ -24,6 +24,8 @@ categories: home automation
 - Used DuPont wires to set up the breadboard
 - Used the [Frenck trick](https://frenck.dev/diy-smart-doorbell-for-just-2-dollar/) to get an extra GPIO from the ESP-01S
 - Mounted near bed with 3M detachable adhesives
+- Cut a broken ESP-01S to reduce the size of the cable hole, and hot glued that in place
+- Soldered the +/- from an old iPhone charger to the DuPont wires to make the voltage rails in the breadboard
 
 # Pictures
 ![printer-light](/assets/img/2021-03-23-kids-bedside-node.jpg)
