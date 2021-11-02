@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PIR Sensor Node
+title: Printer Light
 date: 2021-11-01 21:00:00 +0800
 categories: 3d-printing, home automation
 ---
