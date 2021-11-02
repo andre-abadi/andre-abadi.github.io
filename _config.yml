@@ -11,3 +11,6 @@ redcarpet:
 # https://compile.blog/jekyll-blog-permalink-images/
 permalink: /:title/
 theme: jekyll-theme-midnight
+# https://github.com/pages-themes/cayman/issues/29#issuecomment-339016299
+github:
+  is_project_page: false
