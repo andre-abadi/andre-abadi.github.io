@@ -22,6 +22,11 @@ categories: 3d-printing, home automation
   - Measured and added a hollow cylinder to fit the LED light bar
   - Added base of cylinder to elimenate need for supports, looked good too
 - Uploaded my new design to [Thingiverse](https://www.thingiverse.com/thing:5077707)
+- Added ESP-01S Relay (fitted perfectly into the design)
+- Wired LED positive to relay N.O. position (circuit closes/completes when relay turned on)
+- Wired in a Micro USB header board
+- Hot glued everything in place
+- Screwed into the back of the front left leg of the [Slack Lack](https://www.thingiverse.com/thing:3485510)
 
 # Pictures
 ![printer-light](/assets/img/2021-11-01-printer-light.jpg)
@@ -40,6 +45,7 @@ switch:
 
 
 # Observations
+- Probably didn't need a relay for the amount of current in question, but thought it best to save the ESP-01S from bearing the brunt
 - Made wires a bit too short making wiring up the USB port difficult
 - Hot glue under the relay board caused it to sit higher up and the lid didn't close properly, next time ensure adequare pressure after applying hot glue to a well fitted part
 - It worked quite well but the light source wasn't particularly bright
