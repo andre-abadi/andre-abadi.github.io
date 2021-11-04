@@ -9,7 +9,9 @@ categories: 3d printing
 - Wall mount (under lack table to be exact) a cheap USB charger
 
 # References
-[USB 4 Port Desktop Charger](https://www.kmart.com.au/product/usb-4-port-desktop-charger/3056865)
+- Product reference: [USB 4 Port Desktop Charger](https://www.kmart.com.au/product/usb-4-port-desktop-charger/3056865)
+- Self made design:
+  - Github: [Kmart USB Charger Wall Mount Bracket](/assets/stl/2021-11-02-kmart-charger-bracket.stl)
 
 # Actions
 - Calipers to measure up the dimensions
