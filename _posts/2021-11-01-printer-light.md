@@ -33,7 +33,16 @@ categories: 3d-printing, home automation
 # Pictures
 ![printer-light](/assets/img/2021-11-01-printer-light.jpg)
 
+# Observations
+- Probably didn't need a relay for the amount of current in question, but thought it best to save the ESP-01S from bearing the brunt
+- Made wires a bit too short making wiring up the USB port difficult
+- Hot glue under the relay board caused it to sit higher up and the lid didn't close properly, next time ensure adequare pressure after applying hot glue to a well fitted part
+- It worked quite well but the light source wasn't particularly bright
+- Resued something I might otherwise have thrown away
+
+
 # Code
+## ESPHome
 ```yaml
 switch:
   - platform: gpio
@@ -44,11 +53,39 @@ switch:
     icon: "mdi:desk-lamp"
     inverted: true
 ```
+## [Home Assistant](https://www.home-assistant.io/) Automation
+```yaml
+- id: 7b727468-ce4e-41fa-aee8-568b59afc31c
+  alias: Printer Sync Light to Switch
+  description: ''
+  trigger:
+    - platform: device
+      type: turned_on
+      device_id: 82ad57854a15ec84db03742933e390f5
+      entity_id: switch.printer
+      domain: switch
+    - platform: device
+      type: turned_off
+      device_id: 82ad57854a15ec84db03742933e390f5
+      entity_id: switch.printer
+      domain: switch
+  condition: []
+  action:
+    - choose:
+        - conditions:
+            - condition: state
+              entity_id: switch.printer
+              state: 'on'
+          sequence:
+            - type: turn_on
+              device_id: 2c08f1586defd21fa7184b158ccb49a5
+              entity_id: switch.printer_light_switch
+              domain: switch
+      default:
+        - type: turn_off
+          device_id: 2c08f1586defd21fa7184b158ccb49a5
+          entity_id: switch.printer_light_switch
+          domain: switch
+  mode: single
+```
 
-
-# Observations
-- Probably didn't need a relay for the amount of current in question, but thought it best to save the ESP-01S from bearing the brunt
-- Made wires a bit too short making wiring up the USB port difficult
-- Hot glue under the relay board caused it to sit higher up and the lid didn't close properly, next time ensure adequare pressure after applying hot glue to a well fitted part
-- It worked quite well but the light source wasn't particularly bright
-- Resued something I might otherwise have thrown away
