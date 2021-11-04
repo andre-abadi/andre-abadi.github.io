@@ -6,29 +6,31 @@ categories: 3d printing
 ---
 
 # Purpose
-- Wall mount (under lack table to be exact) a cheap USB charger
+- Repair broken leg of Hape stroller
+- Use 3D printing to make sure the fix is strong enough to withstand use
+- Provide an environment for best effect of polyurethane glue
 
 # References
-[USB 4 Port Desktop Charger](https://www.kmart.com.au/product/usb-4-port-desktop-charger/3056865)
+- [Hape Stroller E3603](https://www.hape.com/us/en/toy/toy/E3603)
+- [**hape-stroller-fix.stl**](/assets/img/2021-10-17-hape-stroller-fix.stl)
 
 # Actions
 - Calipers to measure up the dimensions
-- Prototyped with hexagonal holes to save mass
-- Sped up to 150% print speed because impatient
-- Print detached from print bed
-- Forewent holes in favour of small solid bracket
-- Printed a few at 1mm height to check dimensions
-- Fit was good
-- Basic double sided tape to prevent charger from sliding around
-- Screwed into base of Ikea Lack side table
+- Prototyped in [TinkerCAD](https://www.tinkercad.com/)
+- Printed first prototype as a 5mm slice of the final to check cross sectional fit of pram leg
+- Printed whole thing
+- Inserted the printed part
+- Wet the wood
+- Applied polyurethane
+- Inserted the remaining part of the pram leg
+- Pressed hard
+- Waited 24hrs
 
 # Pictures
-![kmart-charger-bracket](/assets/img/2021-11-02-kmart-charger-bracket.jpg)
+![hape-stroller-fix](/assets/img/2021-10-17-hape-stroller-fix.jpg)
 
 # Observations
-- Hexagonal holes add lots of print time
-- Hexagonal holes add complexity
-- Hexagonal holes increase the amount of high speed non-print moves
-- Parts with very little bed contact area are prone to detach 
-- Screw hole size was perfect
-- Didn't need to be anywhere near as wide as originally planned (30mm)
+- Fit was great, had allowed +0.5mm from measurements of calipers
+- Printing it the easiest way worked well
+- Colour matched well
+- Overall a very effective solution
