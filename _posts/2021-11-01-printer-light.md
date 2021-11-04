@@ -11,7 +11,7 @@ categories: 3d-printing, home automation
 - Design something nice looking
 
 # Reference
-- [ESP-01S Relay Case](https://www.thingiverse.com/thing:4705385) by [engineers_alter_ego](https://www.thingiverse.com/engineers_alter_ego/designs)
+- Original [ESP-01S Relay Case](https://www.thingiverse.com/thing:4705385) by [engineers_alter_ego](https://www.thingiverse.com/engineers_alter_ego/designs)
 - Self made remix:
   - Thingiverse: [ESP-01S Relay LED Holder](https://www.thingiverse.com/thing:5077707)
   - Github: [ESP-01S Relay LED Holder](/assets/stl/2021-11-01-printer-light.stl)
