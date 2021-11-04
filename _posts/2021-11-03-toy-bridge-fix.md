@@ -11,7 +11,7 @@ categories: 3d printing
 
 # References
 - Self made design:
-  - Thingiverse: [TOy Bridge Splint Fix](https://www.thingiverse.com/thing:5090340)
+  - Thingiverse: [Toy Bridge Splint Fix](https://www.thingiverse.com/thing:5090340)
   - Github: [Toy Bridge Fix](/asset/stl/2021-11-03-toy-bridge-fix.stl)
 
 # Actions
@@ -21,7 +21,7 @@ categories: 3d printing
 - Functionally ended up being 100% infill
 
 # Pictures
-![kmart-charger-bracket](/assets/img/2021-11-02-kmart-charger-bracket.jpg)
+![kmart-charger-bracket](/assets/img/2021-11-03-toy-bridge-fix.jpg)
 
 # Observations
 - Was probably too thing and flexible (walls only 2mm thick)
