@@ -11,7 +11,7 @@ categories: 3d printing, home automation
 - Possibly measure number of occupants
 
 # References
-- [Smart Bed occupancy sensor](https://www.thingiverse.com/thing:4213002) by [Luk� Porubcan](https://www.thingiverse.com/luc3as/designs)
+- [Smart Bed occupancy sensor](https://www.thingiverse.com/thing:4213002) by [Lukáš Porubcan](https://www.thingiverse.com/luc3as/designs)
 - [Bed Occupancy Sensor Shim](https://www.thingiverse.com/thing:5083565) by me
 - [Wemos D1 mini case](https://www.thingiverse.com/thing:4600198) by [holda](https://www.thingiverse.com/holda/designs)
 - [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](https://www.thingiverse.com/thing:5083584) by me
@@ -104,4 +104,4 @@ binary_sensor:
 
 # Observations
 - HX711 readings vary and do have frequent spikes requiring software smoothing, 10 sample moving average worked well
-- Internal automation of ESPhome meant that readings could be taken every second without saturating Home Assistant
+- Using template automations to toggle the binary sensor was good as it abstracted raw values away from home assistant
