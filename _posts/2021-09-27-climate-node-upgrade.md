@@ -17,7 +17,7 @@ categories: 3d printing, home automation
 - Re-assemble the housing
 
 # Pictures
-![printer-light](/assets/img/2021-09-27-basic-climate-node.jpg)
+![climate-node-upgrade](/assets/img/2021-09-27-climate-node-upgrade.jpg)
 
 # Code
 ```yaml
