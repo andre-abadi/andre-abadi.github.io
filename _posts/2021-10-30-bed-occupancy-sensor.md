@@ -18,7 +18,7 @@ categories: 3d printing, home automation
 - Original [Wemos D1 mini case](https://www.thingiverse.com/thing:4600198) on Thingiverse by [holda](https://www.thingiverse.com/holda/designs)
 - Self made remix:
   - Thingiverse: [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](https://www.thingiverse.com/thing:5083584)
-  - Github: [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](/assets/stl/2021-10-30-bed-occupancy-sensor-1-esp-housing)
+  - Github: [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](/assets/stl/2021-10-30-bed-occupancy-sensor-1-esp-housing.stl)
 - [HX711 + 4x 50kg Load Cells](https://www.aliexpress.com/item/4000215823944.html?spm=a2g0s.9042311.0.0.b4e54c4d1kwhAB)
 
 
