@@ -12,7 +12,7 @@ categories: 3d printing
 
 # References
 - [Hape Stroller E3603](https://www.hape.com/us/en/toy/toy/E3603)
-- [hape-stroller-fix.stl](/assets/img/2021-10-17-hape-stroller-fix.stl) (**own design**)
+- [hape-stroller-fix.stl](/assets/img/2021-10-17-hape-stroller-fix.stl) (**self made**)
 
 # Actions
 - Calipers to measure up the dimensions
