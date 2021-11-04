@@ -11,7 +11,7 @@ categories: 3d printing
 - Provide an environment for best effect of polyurethane glue
 
 # References
-- [Hape Stroller E3603](https://www.hape.com/us/en/toy/toy/E3603)
+- Product web page for [Hape Stroller E3603](https://www.hape.com/us/en/toy/toy/E3603)
 - [hape-stroller-fix.stl](/assets/img/2021-10-17-hape-stroller-fix.stl) (**self made**)
 
 # Actions
