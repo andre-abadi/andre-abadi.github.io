@@ -11,10 +11,14 @@ categories: 3d printing, home automation
 - Possibly measure number of occupants
 
 # References
-- [Smart Bed occupancy sensor](https://www.thingiverse.com/thing:4213002) by [Lukáš Porubcan](https://www.thingiverse.com/luc3as/designs)
-- [Bed Occupancy Sensor Shim](https://www.thingiverse.com/thing:5083565) by me
-- [Wemos D1 mini case](https://www.thingiverse.com/thing:4600198) by [holda](https://www.thingiverse.com/holda/designs)
-- [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](https://www.thingiverse.com/thing:5083584) by me
+- Original [Smart Bed occupancy sensor](https://www.thingiverse.com/thing:4213002) on Thingiverse by [Lukáš Porubcan](https://www.thingiverse.com/luc3as/designs)
+- Self made remix:
+  - [Bed Occupancy Sensor Shim](https://www.thingiverse.com/thing:5083565) on Thingiverse
+  - 
+- Original [Wemos D1 mini case](https://www.thingiverse.com/thing:4600198) on Thingiverse by [holda](https://www.thingiverse.com/holda/designs)
+- Self made remix:
+  - [Wemos D1 Mini Case for HX711 Bed Occupancy Sensor Assembly](https://www.thingiverse.com/thing:5083584) on Thingiverse
+  - 
 - [HX711 + 4x 50kg Load Cells](https://www.aliexpress.com/item/4000215823944.html?spm=a2g0s.9042311.0.0.b4e54c4d1kwhAB)
 
 
