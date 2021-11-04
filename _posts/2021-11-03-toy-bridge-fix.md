@@ -19,6 +19,9 @@ categories: 3d printing
 - Simple design prototyped on [TinkerCAD](tinkercad.com)
 - Printed in PolyMaker PolyTerra PLA Cotton White
 - Functionally ended up being 100% infill
+- Slid into place and filled with much more polyurethane than typical, to fill the large spaces
+- Waited 12hrs
+- Used a sharp knife to cut off protruding parts of expanded foam
 
 # Pictures
 ![kmart-charger-bracket](/assets/img/2021-11-03-toy-bridge-fix.jpg)
