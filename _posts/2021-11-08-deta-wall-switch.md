@@ -8,19 +8,21 @@ categories: home automation
 # Purpose
 - Flash ESPhome to a Deta Smart Single Switch
 
-
 # References
-- Mk. 2 eyeball of device and packaging:
-  - 6911HA
-  - Grid Connect
-  - CPCN009308/4
-  - Chip labels:
-    - Model: TYWE3S
-    - P/N 6911HA
-    - S/N: XXXXXXXXXXX473
-  - ESPHome readout: `ESP8266 80MHz, 80KB RAM, 1MB Flash`
+
 - [Deta Grid Connect Smart Switch and Home Assistant](https://blog.mikejmcguire.com/2019/12/09/deta-grid-connect-smart-switch-and-home-assistant/) by [Mike J McGuire](https://blog.mikejmcguire.com/author/mikejmcguire/)
 - [FTDI Drivers](https://ftdichip.com/drivers/)
+- Mk. 2 eyeball of device and packaging:
+  | Key | Value |
+  | --- | --- |
+  | Brand | Deta |
+  | Model | 6911HA|
+  | Ecosystem | Grid Connect|
+  | Packaging Model Number | CPCN009308/4 |
+  | Chip Model | TYWE3S |
+  | Chip P/N | 6911HA |
+  | Chip S/N | XXXXXXXXXXX473 |
+  | ESPHome Readout | ESP8266 80MHz, 80KB RAM, 1MB Flash |
 
 # Actions
 - `choco install tasmotizer`
