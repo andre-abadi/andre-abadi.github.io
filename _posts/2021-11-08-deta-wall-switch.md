@@ -25,6 +25,7 @@ categories: home automation
   | ESPHome Readout | ESP8266 80MHz, 80KB RAM, 1MB Flash |
 
 # Actions
+## 2021-11-08
 - `choco install tasmotizer`
 - Search whole hard drive for tasmotizer
 - Found it in `C:\ProgramData\chocolatey\bin` (thanks Choco, made that one easy)
@@ -81,6 +82,7 @@ mode: INPUT_PULLUP`
 - Possible out of memory (OOM) issues judging by [Home Assistant Forums](https://community.home-assistant.io/t/esphome-device-wont-connect-to-wifi-after-upgrading-to-1-20-4/327756/25)
 - Successfully flashed Tasmota 10, header pin wiggling seemed to help post-flash
 - Further [research](https://github.com/esphome/issues/issues/1068) seems to suggest binary from ESPHome may be too big
+## 2021-11-09
 - Reviewed the Tasmota page on [Upgrading](https://tasmota.github.io/docs/Upgrading/)
 - Noted that from v8.2 Tasmota can take an upgrade firmware in the form of a `.bin.gz`
 - Used 7zip to turn `deta-switch-master-bed (4).bin` into `deta-switch-master-bed (4).bin.gz` using *Gzip* compression
