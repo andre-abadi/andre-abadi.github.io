@@ -6,7 +6,7 @@ categories: home automation
 ---
 
 # Purpose
-- Flash ESPhome to a [Deta Smart Single Switch](https://www.bunnings.com.au/deta-grid-connect-smart-single-gang-touch-light-switch_p0098811) from [Bunnings](http://10.1.1.57/]
+- Flash ESPhome to a [Deta Smart Single Switch](https://www.bunnings.com.au/deta-grid-connect-smart-single-gang-touch-light-switch_p0098811) from [Bunnings](https://www.bunnings.com.au/)
 
 # References
 
