@@ -7,6 +7,10 @@ categories: home automation
 
 # Purpose
 - Flash ESPhome to a Deta Smart Single Switch
+
+
+# References
+- Mk. 2 eyeball of device and packaging:
   - 6911HA
   - Grid Connect
   - CPCN009308/4
@@ -15,8 +19,6 @@ categories: home automation
     - P/N 6911HA
     - S/N: XXXXXXXXXXX473
   - ESPHome readout: `ESP8266 80MHz, 80KB RAM, 1MB Flash`
-
-# References
 - [Deta Grid Connect Smart Switch and Home Assistant](https://blog.mikejmcguire.com/2019/12/09/deta-grid-connect-smart-switch-and-home-assistant/) by [Mike J McGuire](https://blog.mikejmcguire.com/author/mikejmcguire/)
 - [FTDI Drivers](https://ftdichip.com/drivers/)
 
@@ -77,6 +79,10 @@ mode: INPUT_PULLUP`
 - Possible out of memory (OOM) issues judging by [Home Assistant Forums](https://community.home-assistant.io/t/esphome-device-wont-connect-to-wifi-after-upgrading-to-1-20-4/327756/25)
 - Successfully flashed Tasmota 10, header pin wiggling seemed to help post-flash
 - Further [research](https://github.com/esphome/issues/issues/1068) seems to suggest binary from ESPHome may be too big
-
+- Reviewed the Tasmota page on [Upgrading](https://tasmota.github.io/docs/Upgrading/)
+- Noted that from v8.2 Tasmota can take an upgrade firmware in the form of a `.bin.gz`
+- Used 7zip to turn `deta-switch-master-bed (4).bin` into `deta-switch-master-bed (4).bin.gz` using *Gzip* compression
+- Uploaded `.gz` file using Tasmota web interface
+- Upload appeared to succeed and device rebooted
 
 # Observations
