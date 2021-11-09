@@ -33,20 +33,30 @@ categories: home automation
 - Downloaded [Tasmota v7.2.0](https://github.com/arendst/Tasmota/releases/tag/v7.2.0)
 - Wired up FTDI to the switch via [Mike's photo](https://mikejmcguire.files.wordpress.com/2019/12/untitled.png)
 - Followed instructions from [Todd Gibbons' comment](https://blog.mikejmcguire.com/2019/12/09/deta-grid-connect-smart-switch-and-home-assistant/#comment-25882) on [Mike's blog post](https://blog.mikejmcguire.com/2019/12/09/deta-grid-connect-smart-switch-and-home-assistant/)
->- got it working.  
-- crossed TX & RX.  
-- used tasmotizer-1.1a for windows, on Win10. running As Administrator  
-- used bin tasmota-basic7.1.bin  
-If the install fails, then disconnect the usb to serial dongle. refresh the com ports in tasmotizer. then while the device is connected and running, connect an ground lead to GPIO0, then to RST, hold for 3 sec. then release RST, wait 3 sec, then release GPIO0. Then click Tasmotize! button
+    >- got it working.  
+    >- crossed TX & RX.  
+    >- used tasmotizer-1.1a for windows, on Win10. running As Administrator  
+    >- used bin tasmota-basic7.1.bin  
+    >- If the install fails, then disconnect the usb to serial dongle. refresh the com ports in tasmotizer. then while the device is connected and running, connect an ground lead to GPIO0, then to RST, hold for 3 sec. then release RST, wait 3 sec, then release GPIO0. Then click Tasmotize! button
 Todd
 - My version of the steps
-  - Wire up basic 4 (3.3V,GND,TX,RX)
-  - GND to GPIO0 and count to 3
-  - GND to RST and count to 3
-  - Remove GND from RST and count to 3
-  - Remove GND from GPIO
-  - Tasmotize
-- Downloaded bin for v7.2.0 didn't work but `Release 10.0.0 tasmota.bin` did
+  1. Wire up basic 4 (3.3V,GND,TX,RX)
+  2. GND to GPIO0 and count to 3
+  3. GND to RST and count to 3
+  4. Remove GND from RST and count to 3
+  5. Remove GND from GPIO
+  6. Tasmotize
+- Downloaded bin for v7.2.0 didn't work but `Release 10.0.0 tasmota.bin` did work
+- Gathered below from Tasmota info while running standard v10.0.0 firmware:
+    >| Key | Data |
+    >| -- | -- |
+    >|ESP Chip Id|1509020 (ESP8266EX)|
+    >|Flash Chip Id|0x1540C8|
+    >|Flash Size|2048 kB| 
+    >|Program Flash Size|2048 kB|
+    >|Program Size|612 kB|  
+    >|Free Program Space|388 kB|
+    >|Free Memory|27.6 kB|  
 - Found Tasmota Wi-Fi, entered home Wi-Fi and navigated to new IP on computer
 - Created ESPhome config using [template from ESPHome Devices](https://www.esphome-devices.com/devices/DETA-Grid-Connect-Smart-Switch/)
   - ESPHome threw error `GPIO Pin 16 does not support pullup pin mode. Please choose another pin.
@@ -68,8 +78,5 @@ mode: INPUT_PULLUP`
 - Successfully flashed Tasmota 10, header pin wiggling seemed to help post-flash
 - Further [research](https://github.com/esphome/issues/issues/1068) seems to suggest binary from ESPHome may be too big
 
-
-# Pictures
-![esp32-cam-ch340-housing](/assets/img/2021-10-13-esp32-cam-ch340-housing.jpg)
 
 # Observations
