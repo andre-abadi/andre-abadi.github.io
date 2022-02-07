@@ -11,20 +11,22 @@ categories: home automation
 
 # References
 - [mattwidmann.net](https://mattwidmann.net/notes/updating-prusa-i3-mk3s-firmware-with-octoprint/index.html) article showing his success
-- 
+- [Prusa Firmware](https://help.prusa3d.com/en/downloads/)
 
 
 
 # Actions
 - Followed steps from [mattwidmann.net](https://mattwidmann.net/notes/updating-prusa-i3-mk3s-firmware-with-octoprint/index.html) to configure [Firmware Updater](https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/blob/master/README.md) plugin for OctoPrint
 - Docker CLI to OctoPrint Docker container to run `which avrdude`, finding it was at `/usr/bin/avrdude`
-- Final settings as found to succeed by [Matt Widmann]((https://mattwidmann.net/notes/updating-prusa-i3-mk3s-firmware-with-octoprint/index.html))
-  |Setting | Value |
-  |---|---|
-  | Flash method | avrdude (Atmel AVR Family) |
-  | AVR MCU | Atmega2560 |
-  | Path to avrdude | /usr/bin/avrdude |
-  | AVR Programmer Type | wiring |
+- Final settings as found to succeed by [Matt Widmann](https://mattwidmann.net/notes/updating-prusa-i3-mk3s-firmware-with-octoprint/index.html)
+
+    |Setting | Value |
+    |---|---|
+    | Flash method | avrdude (Atmel AVR Family) |
+    | AVR MCU | Atmega2560 |
+    | Path to avrdude | /usr/bin/avrdude |
+    | AVR Programmer Type | wiring |
+
 - Saved plugin config
 - Downloaded firmware
 - Unzipped `.hex` file
@@ -37,3 +39,4 @@ categories: home automation
 
 # Observations
 - Check firmware printer model before downloading firmware
+- OctoPrint is a great way to flash firmware
