@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filament Dryer
-date: 2021-11:20 11:45:00 +0800
+date: 2021-11-20 11:45:00 +0800
 categories: 3d printing
 ---
 
