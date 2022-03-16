@@ -10,7 +10,7 @@ categories: 3d printing
 - Friend wanted to scale print a solar system
 
 # References
-- [Solar system](https://www.thingiverse.com/thing:4703616) by [Gonçalo Silva](https://www.thingiverse.com/goncalossilva/designs)
+- [Solar system](https://www.thingiverse.com/thing:4703616) by [GonÃ§alo Silva](https://www.thingiverse.com/goncalossilva/designs)
 - [Saturn scaled one in 500 million](https://www.thingiverse.com/thing:3930295) by [Osvaldo Zanet](https://www.thingiverse.com/tato_713/designs)
 
 
