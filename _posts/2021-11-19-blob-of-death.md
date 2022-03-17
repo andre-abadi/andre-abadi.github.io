@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Solar System
+title: Blob of Death
 date: 2021-11-19 12:00:00 +0800
 categories: 3d printing
 ---
