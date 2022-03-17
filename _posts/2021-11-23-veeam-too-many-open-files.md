@@ -2,7 +2,8 @@
 layout: default
 title: Veeam - Too Many Open Files
 date: 2021-11-23 12:00:00 +0800
-categories: home automation
+tags:
+- home automation
 ---
 
 # Purpose
