@@ -21,6 +21,7 @@ tags:
 - Software
   - PrusaSlicer
   - Summary of changes vs `0.4mm DRAFT @0.6 Nozzle MK3`
+
     | Setting | Modded | Default |
     | --- | --- | --- |
     | Bottom solid layers | 2 | 3 |
