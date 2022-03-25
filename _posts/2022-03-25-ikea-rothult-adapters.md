@@ -15,10 +15,6 @@ tags:
 - [IKEA Enhet - mirror cabinet with 2 doors, white, 60x17x75cm](https://www.ikea.com/au/en/p/enhet-mirror-cabinet-with-2-doors-white-s39396566/)
 - [IKEA Rothult - smart lock, white](https://www.ikea.com/au/en/p/rothult-smart-lock-white-80429620/)
 
-# Pictures
-![designs](/assets/img/2022-03-25-ikea-rothult-adapters-1.jpg)
-![as fitted](/assets/img/2022-03-25-ikea-rothult-adapters-2.jpg)
-
 # Design Files
 - [Cabinet Socket (Unused)](/assets/stl/2022-03-25-rothult-cabinet-adapters-cabinet-socket.stl)
 - [Door Socket](/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl)
@@ -38,3 +34,7 @@ tags:
 # Observations
 - Should have removed shelving to make drilling work easier the first time, refer unused screw hole in second picture
 - Should have measured tolerances in-situ to have noticed the rubber bumper on the door that added 2mm to the length of the [Door Socket](/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl) required
+
+# Pictures
+![designs](/assets/img/2022-03-25-ikea-rothult-adapters-1.jpg)
+![as fitted](/assets/img/2022-03-25-ikea-rothult-adapters-2.jpg)
