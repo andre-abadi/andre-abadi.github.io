@@ -41,10 +41,3 @@ switch:
 - Tried D2, no change, hence it does not appear to be related to the pinout of the mini
 
 # Reflections
-
-
-
-# Pictures
-
-
-# Code
