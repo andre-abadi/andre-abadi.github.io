@@ -21,9 +21,9 @@ tags:
 
 
 # Actions
-- Uploaded [Bryan's](https://www.printables.com/social/81523-bryan/about) `1x.stl` and `r040.stl` to [TinkerCAD](tinkercad.com)
+- Uploaded [Bryan's](https://www.printables.com/social/81523-bryan/about) `1x.stl` and `r040.stl` to [TinkerCAD](https://www.tinkercad.com/)
 - Filled in the sleepers with blocks, rotating to account for angled sleepers in curved track
-- Uploaded remix to [Printables](printables.com) as [L-Guage Rails to Fit Lego Trains](https://www.printables.com/model/174293-l-guage-rails-to-fit-lego-trains)
+- Uploaded remix to [Printables](https://www.printables.com/) as [L-Guage Rails to Fit Lego Trains](https://www.printables.com/model/174293-l-guage-rails-to-fit-lego-trains)
 - Noticed slight gap on curved track sleeper fill
 - Re-uploaded curved track STL
 
