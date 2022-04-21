@@ -1,0 +1,80 @@
+Z Drive 
+      [a]_belt_tensioner_a_x2
+      [a]_belt_tensioner_b_x2
+      [a]_z_drive_baseplate_a_x2
+      [a]_z_drive_baseplate_b_x2
+      z_drive_main_a_x2
+      z_drive_main_b_x2
+      z_drive_retainer_a_x2
+      z_drive_retainer_b_x2
+      z_motor_mount_a_x2
+      z_motor_mount_b_x2
+Z Idlers 
+      [a]_z_tensioner_x4_9mm
+      z_tensioner_bracket_a_x2
+      z_tensioner_bracket_b_x2
+AB Drive Units 
+      [a]_cable_cover
+      [a]_z_chain_retainer_bracket_x2
+      a_drive_frame_lower
+      a_drive_frame_upper
+      b_drive_frame_lower
+      b_drive_frame_upper
+Front Idlers 
+      [a]_tensioner_left
+      [a]_tensioner_right
+      front_idler_left_lower
+      front_idler_left_upper
+      front_idler_right_lower
+      front_idler_right_upper
+XY Joints 
+      [a]_endstop_pod_D2F_switch
+      [a]_endstop_pod_hall_effect
+      [a]_xy_joint_cable_bridge_2hole
+      [a]_xy_joint_cable_bridge_3hole
+      xy_joint_left_lower
+      xy_joint_left_upper
+      xy_joint_right_lower
+      xy_joint_right_upper
+X Carriage/Afterburner 
+      [a]_blower_housing_front
+      blower_housing_rear
+      hotend_fan_mount
+      probe_retainer_bracket
+      x_carriage_frame_left_MGN12
+      x_carriage_frame_right_MGN12
+Printhead
+      printhead_front
+      printhead_rear
+Direct Feed
+      [a]_connector_cover
+      [a]_guidler
+      [a]_latch
+      [a]_latch_shuttle
+      chain_anchor_2hole
+      chain_anchor_3hole
+      extruder_body
+      extruder_motor_plate
+Gantry 
+      z_joint_lower_x4
+      z_joint_upper_x3
+      [a]_z_belt_clip_lower_x4
+      [a]_z_belt_clip_upper_x4
+      z_joint_upper_hall_effect
+Z Endstop
+      nozzle_probe
+Zipchain
+      z_chain_bottom_anchor
+Electronics Mounting DIN
+      controller board (octopus, spider, skr, duet, etc.)
+      lrs_200_psu_bracket_x2
+      PSU_stabilizer_50mm
+      pcb_din_clip_x3
+      raspberrypi_bracket
+      rs25_psu_bracket
+Misc/Tools
+      MGN9_rail_guide_x2
+      MGN12_rail_guide_x2
+      spool_holder
+      bowden_retainer
+      power_inlet_filtered
