@@ -1,3 +1,7 @@
 theme: jekyll-theme-midnight
 title: Entropy Reduction
 description: Personal log of yet another digital native.
+collections:
+  tags:
+    output: true
+    permalink: tags/:path/
