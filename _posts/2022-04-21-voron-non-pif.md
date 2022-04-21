@@ -27,13 +27,9 @@ tags:
   - Unsure if this covers power inlet for LDO variant, as understand PIF caters to LDO
 - Downloaded 2.4r2 source from Github, extracted STLs to directory
 - Removed all filenames in TXT from extracted STL folders
-
+- Downloaded all LDO parts from the printed parts guide
+- Uncertain about:
+  - `
 
 # Reflections
-
-
-
-# Pictures
-
-
-# Code
+- Opening the Fusion360 file explains almost all of the things and where they are
