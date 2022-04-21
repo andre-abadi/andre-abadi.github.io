@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Voron Costing, Part 1
+title: Voron Costing, Part 2
 date: 2022-03-22 10:48:00 +0800
 tags:
 - 3d printing
