@@ -17,6 +17,8 @@ tags:
 
 
 # Design Files
+- [**TinkerCAD: Rolling-Pin-Spacer**](https://www.tinkercad.com/things/5ENzK71obFS)
+- [**Printables: Spacer to suit Joseph Joseph Adjustable Rolling Pin**](https://www.printables.com/model/178917-spacer-to-suit-joseph-joseph-adjustable-rolling-pi)
 - [2mm](/assets/stl/2021-12-20-Rolling-Pin-Spacer-2mm.stl)
 - [5mm](/assets/stl/2021-12-20-Rolling-Pin-Spacer-5mm.stl)
 - [6mm](/assets/stl/2021-12-20-Rolling-Pin-Spacer-6mm.stl)
