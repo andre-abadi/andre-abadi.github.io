@@ -13,7 +13,7 @@ tags:
 
 # References
 - [All LEGO® like train track rail in L-Gauge](https://www.printables.com/model/53885-all-legor-like-train-track-rail-in-l-gauge) by [Bryan's](https://www.printables.com/social/81523-bryan/about)
-- *My remix* [L-Guage Rails to Fit Lego Trains](https://www.printables.com/model/174293-l-guage-rails-to-fit-lego-trains)
+- [**Printables: L-Guage Rails to Fit Lego Trains**](https://www.printables.com/model/174293-l-guage-rails-to-fit-lego-trains)
 
 # Design Files
 - [lego-track-remix-curved.stl](\assets\stl\2022-04-19-lego-track-remix-curved.stl)
