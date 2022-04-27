@@ -34,6 +34,4 @@ tags:
 
 
 # Pictures
-
-
-# Code
+![2022-04-27-pianola-roll-end-cap](/assets/img/2022-04-27-pianola-roll-end-cap.jpg)
