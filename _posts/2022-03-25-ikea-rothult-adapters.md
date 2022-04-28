@@ -14,11 +14,13 @@ tags:
 # References
 - [IKEA Enhet - mirror cabinet with 2 doors, white, 60x17x75cm](https://www.ikea.com/au/en/p/enhet-mirror-cabinet-with-2-doors-white-s39396566/)
 - [IKEA Rothult - smart lock, white](https://www.ikea.com/au/en/p/rothult-smart-lock-white-80429620/)
+- [**TinkerCAD: rothult-cabinet-adapters**](https://www.tinkercad.com/things/6sUKkyVatdD)
+- [**Printables: Adapters to Suit IKEA Enhet Cabinet and Rothult Smart Lock**](https://www.printables.com/model/180343-adapters-to-suit-ikea-enhet-cabinet-and-rothult-sm)
 
 # Design Files
-- [Cabinet Socket (Unused)](/assets/stl/2022-03-25-rothult-cabinet-adapters-cabinet-socket.stl)
-- [Door Socket](/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl)
-- [Door Tab](/assets/stl/2022-03-25-rothult-cabinet-adapters-door tab.stl)
+- [`rothult-cabinet-adapters-cabinet-socket.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-cabinet-socket.stl)
+- [`rothult-cabinet-adapters-door-socket.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl)
+- [`rothult-cabinet-adapters-door tab.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-door tab.stl)
 
 # Actions
 - The [Rothult](https://www.ikea.com/au/en/p/rothult-smart-lock-white-80429620/) when placed behind the mirrors of the  [Enhet](https://www.ikea.com/au/en/p/enhet-mirror-cabinet-with-2-doors-white-s39396566/), likely due to the metal backing of the mirror panels
