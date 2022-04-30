@@ -13,7 +13,8 @@ tags:
 
 # References
 - [**First Post: Doorbell Actual**]({{ site.baseurl }}/2022/04/22/doorbell-actual.html)
-- [**TinkerCAD: doorbell-actual](https://www.tinkercad.com/things/5F97d7ne5wT)
+- [**TinkerCAD: doorbell-actual**](https://www.tinkercad.com/things/5F97d7ne5wT)
+- **Printables: Doorbell** [TBA]
 - [AliExpress: *Yamin electric store* Metal Push Button - White, 40mm, 3-6V](https://www.aliexpress.com/item/4000310874353.html?spm=a2g0o.order_list.0.0.6ef01802MIGp6L)
 
 # Design Files
@@ -104,20 +105,20 @@ binary_sensor:
 
 ## Unused Un-Pressed Strobe
 ```yaml
-        #
-        # slow strobe when not pressed,
-        # but only after first press
-        #
-        #- while:
-        #    condition:
-        #      binary_sensor.is_off: bin
-        #    
-        #    
-        #    then:
-        #      - switch.turn_off: light
-        #      - delay: 100ms
-        #      - switch.turn_on: light
-        #      - delay: 1s
+        
+         slow strobe when not pressed,
+         but only after first press
+        
+        - while:
+            condition:
+              binary_sensor.is_off: bin
+            
+            
+            then:
+              - switch.turn_off: light
+              - delay: 100ms
+              - switch.turn_on: light
+              - delay: 1s
               
 ```
 
