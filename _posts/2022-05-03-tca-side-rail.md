@@ -19,13 +19,16 @@ tags:
 - Thrustmaster [TCA Captain Pack Airbus Edition](https://www.thrustmaster.com/en-us/products/tca-captain-pack-airbus-edition/)
 - [100pcs Thread Knurled Brass Threaded Heat Set Heat Resistant Insert Embedment Nut For 3D Printer](https://www.aliexpress.com/item/4001185849382.html?spm=a2g0o.order_list.0.0.21ef1802UVm33C)
 - [**TinkerCAD: tca-side-rail**](https://www.tinkercad.com/things/aDb05zaWdzm)
+- [**Printables: tca-side-rail**](https://www.printables.com) [TBA]
 
 # Design Files
+
 - [`2022-05-03-tca-side-rail.stl`](/assets/stl/2022-05-03-tca-side-rail.stl)
 
 # Actions
 - Calipers and TinkerCAD
 - Numerous (~58) prototypes
+
 ## V1
 - Started by modelling the screw hole fixtures
 - Quickly realised that the *plugs* next to the screw holes were not particularly needed, not sure why Thrustmaster included them in their designs
@@ -33,16 +36,19 @@ tags:
 - Adjusted for chamfered corners
 - Achieved good fitment of both screw holes and mounting *fillets*
 - Created a *frame socket* at the top to eventually mount the rest of the frame
+
 ## V2
 - Adjusted so that the whole rail would sit flush to the desk
 - This was so that there was less room for it to bend, in theory because it was effectively at desk level
 - Many prototypes of front section to get heights right
 - Added a chamfer for screw to sit inside design rather than protrude
+
 ## Fastenings
 - Most shed screws were either too long or too narrow
 - Settled on some standard computer case screws
 - These were slightly too wide for the TCA quadrant but bit in well and offered good purchase
 - Pulled out packet of M3 heat-sets to attempt incorporating
+
 ## V2 continued
 - Happy with
   - Mounting fillet distances
