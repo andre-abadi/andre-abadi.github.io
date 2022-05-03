@@ -95,4 +95,5 @@ tags:
   - Would only be needed when hitting full print speeds, so perhaps on a needs-basis and not to the profile itself
 
 # Pictures
-~[tca-accessory-rail-1](/assets/img/2022-05-03-tca-accessory-rail-1.jpg)
+![tca-accessory-rail-1](/assets/img/2022-05-03-tca-accessory-rail-1.jpg)
+![tca-accessory-rail-2](/assets/img/2022-05-03-tca-accessory-rail-2.jpg)
