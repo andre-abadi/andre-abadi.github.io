@@ -19,7 +19,7 @@ tags:
 - Thrustmaster [TCA Captain Pack Airbus Edition](https://www.thrustmaster.com/en-us/products/tca-captain-pack-airbus-edition/)
 - [100pcs Thread Knurled Brass Threaded Heat Set Heat Resistant Insert Embedment Nut For 3D Printer](https://www.aliexpress.com/item/4001185849382.html?spm=a2g0o.order_list.0.0.21ef1802UVm33C)
 - [**TinkerCAD: tca-accessory-rail**](https://www.tinkercad.com/things/aDb05zaWdzm)
-- [**Printables: tca-accessory-rail**](https://www.printables.com) [TBA]
+- [**Printables: tca-accessory-rail**](https://www.printables.com/model/191964-tca-accessory-rail)
 
 # Design Files
 
