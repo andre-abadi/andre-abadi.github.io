@@ -49,7 +49,7 @@ tags:
 - These were slightly too wide for the TCA quadrant but bit in well and offered good purchase
 - Pulled out packet of M3 heat-sets to attempt incorporating
 
-## V2 continued
+## V2 Continued
 - Happy with
   - Mounting fillet distances
   - Mounting fillet fits
@@ -82,7 +82,7 @@ tags:
   - 3 top layers
   - 3 bottom layers
   - Mirrored an instance along X-axis to create matching pair in PrusaSlicer
-  - **Increased printing temp to 225°C to reduce under-extrusion seen at corners after long runs along primary axis
+  - **Increased printing temp to 225°C to reduce under-extrusion seen at corners after long runs along primary axis**
 
 # Reflections
 - Sits 0.25-0.5mm off the table so that the squish of the throttle quadrant's soft rubber feet causes it to *bottom out* but still allow rubber feet to provide grip
