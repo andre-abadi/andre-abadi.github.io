@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TCA Side Rail
+title: TCA Accessory Rail
 date: 2022-05-03 19:37:00 +0800
 tags:
 - 3d printing
@@ -18,12 +18,12 @@ tags:
 - VKB [GNX-MFH (Multi-Functional Holder)](https://vkb-sim.com.au/products/gnx-mfh-multi-functional-holder)
 - Thrustmaster [TCA Captain Pack Airbus Edition](https://www.thrustmaster.com/en-us/products/tca-captain-pack-airbus-edition/)
 - [100pcs Thread Knurled Brass Threaded Heat Set Heat Resistant Insert Embedment Nut For 3D Printer](https://www.aliexpress.com/item/4001185849382.html?spm=a2g0o.order_list.0.0.21ef1802UVm33C)
-- [**TinkerCAD: tca-side-rail**](https://www.tinkercad.com/things/aDb05zaWdzm)
-- [**Printables: tca-side-rail**](https://www.printables.com) [TBA]
+- [**TinkerCAD: tca-accessory-rail**](https://www.tinkercad.com/things/aDb05zaWdzm)
+- [**Printables: tca-accessory-rail**](https://www.printables.com) [TBA]
 
 # Design Files
 
-- [`2022-05-03-tca-side-rail.stl`](/assets/stl/2022-05-03-tca-side-rail.stl)
+- [`2022-05-03-tca-accessory-rail.stl`](/assets/stl/2022-05-03-tca-accessory-rail.stl)
 
 # Actions
 - Calipers and TinkerCAD
@@ -95,4 +95,4 @@ tags:
   - Would only be needed when hitting full print speeds, so perhaps on a needs-basis and not to the profile itself
 
 # Pictures
-~[tca-side-rail-1](/assets/img/2022-05-03-tca-side-rail-1.jpg)
+~[tca-accessory-rail-1](/assets/img/2022-05-03-tca-accessory-rail-1.jpg)
