@@ -10,6 +10,9 @@ tags:
 # Purpose
 - Track total cost of purchase and assembly of Voron 2.4 printer
 
+# References
+- [**Voron Costings, Part 1**]({{ site.baseurl }}/2022/03/10/voron-costing-1.html)
+
 # Actions
 - Requested swap to 300mm model
 - Swap done with following caveats from [Unique Prints](https://uniqueprints.shop/) rep:
