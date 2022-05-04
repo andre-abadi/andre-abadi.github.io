@@ -40,7 +40,7 @@ tags:
 | | *Raspberry Pi: TBA* |||||
 ||||||**Sub Total**|**$2331.37**|
 | **Accessories** ||||||
-| engineer-pad-11-crimping-tool | [Engineer PAD-11 Precision Micro Terminal Crimping Tool](https://uniqueprints.shop/shop/tools/engineer/engineer-pad-11-precision-micro-terminal-crimping-tool/) | $114.50 | - | $11.45 | $125.95 | $125.95 | $125.95 |
+| engineer-pad-11-crimping-tool | [Engineer PAD-11 Precision Micro Terminal Crimping Tool](https://uniqueprints.shop/shop/tools/engineer/engineer-pad-11-precision-micro-terminal-crimping-tool/) | $114.50 | - | $11.45 | $125.95 | $125.95 |
 | engineer-pa-06-wire-stripper | [Engineer PA-06 Precision Wire Stripper](https://uniqueprints.shop/shop/tools/engineer/engineer-pa-06-wire-stripper/) | $49.50 | - | $4.95  | $54.45 | $180.40 |
 ||||||**Sub Total**|**$180.40**|
 |||||||
