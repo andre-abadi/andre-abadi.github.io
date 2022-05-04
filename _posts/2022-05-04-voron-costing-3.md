@@ -35,16 +35,21 @@ tags:
 | ---       | ---         | ---   | ---      | --- | ---   | ---           |
 | **Printer Proper** ||||||
 | voron-24-kit-300-red-1 | [Voron V2.4 Kit 300x300x300 by LDO (Pre order – Batch 2)](https://uniqueprints.shop/shop/ldo/voron-v2-4-kit-300x300x300-by-ldo-pre-order-batch-2/) | $1929.50 | $9.50 | $0.95 | $1939.95 | $1939.95 |
-| PIF+LDO | PIF 2.4r2 Printed Parts (Functional Only) + LDO Kit Upgrade | €110 (€100 + €10) | €43.17 | - | $237.97 (PayPal to €143.17) | $2177.92 |
-| voron-dragon-highflow | [Voron Dragon Hotend - High Flow](https://uniqueprints.shop/shop/extruder-hotend/voron-dragon-hotend/?attribute_flow=High+Flow) | $139.50 | $13.95 | $153.45 | $2331.37 |
-|||||Total|$2331.37||
+| PIF+LDO | [PIF 2.4r2 Printed Parts (Functional Only) + LDO Kit Upgrade](https://pif.voron.dev/) | €110 (€100 + €10) | €43.17 | - | $237.97 | $2177.92 |
+| voron-dragon-highflow | [Voron Dragon Hotend - High Flow](https://uniqueprints.shop/shop/extruder-hotend/voron-dragon-hotend/?attribute_flow=High+Flow) | $139.50 | $13.95 | - | $153.45 | $2331.37 |
+| | *Raspberry Pi: TBA* |||||
+||||||**Sub Total**|**$2331.37**|
 | **Accessories** ||||||
-| engineer-pad-11-crimping-tool | [Engineer PAD-11 Precision Micro Terminal Crimping Tool](https://uniqueprints.shop/shop/tools/engineer/engineer-pad-11-precision-micro-terminal-crimping-tool/) | $114.50 | $11.45 | $125.95 | $125.95 | $125.95 |
-| engineer-pa-06-wire-stripper | [Engineer PA-06 Precision Wire Stripper](https://uniqueprints.shop/shop/tools/engineer/engineer-pa-06-wire-stripper/) | $49.50 | $4.95 | $0 | $54.45 | $180.40 |
-|||||Total|$2511.77||
+| engineer-pad-11-crimping-tool | [Engineer PAD-11 Precision Micro Terminal Crimping Tool](https://uniqueprints.shop/shop/tools/engineer/engineer-pad-11-precision-micro-terminal-crimping-tool/) | $114.50 | - | $11.45 | $125.95 | $125.95 | $125.95 |
+| engineer-pa-06-wire-stripper | [Engineer PA-06 Precision Wire Stripper](https://uniqueprints.shop/shop/tools/engineer/engineer-pa-06-wire-stripper/) | $49.50 | - | $4.95  | $54.45 | $180.40 |
+||||||**Sub Total**|**$180.40**|
+|||||||
+||||||**Grand Total**|**$2511.77**|
 
 # Reflections
 - Need to buy some ABS to make the remaining colour-matched parts
+  - Amazon Basic ABS Red
+  - eSun ABS+ Black
 - Did not know about the LDO kit upgrade fee, but glad PIF covers the LDO kit variations, seems very reasonable for quite a few changes
 - PayPal currency conversions hurt, but then, currency conversions probably just hurt
 - Happy to get quality parts from my provider rather than unregulated open market
