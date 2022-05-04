@@ -1,11 +1,9 @@
 ---
 layout: default
-title: TITLE
-date: 2022-03-25 11:32:00 +0800
+title: Voron Costing, Part 3
+date: 2022-05-04 09:00:00 +0800
 tags:
 - 3d printing
-- ikea
-- home automation
 ---
 
 # Purpose
