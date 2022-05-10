@@ -10,15 +10,13 @@ tags:
 
 # Purpose
 
-
-
 # References
-
-
+- [Website](URL)
+- [**TinkerCAD: TITLE**](URL)
+- [**Printables: TITLE**](URL)
 
 # Design Files
-
-
+- [`TITLE.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/TITLE.stl)
 
 # Actions
 
@@ -29,6 +27,8 @@ tags:
 
 
 # Pictures
-
+![TITLE](/assets/img/TITLE.jpg)
 
 # Code
+```
+```
