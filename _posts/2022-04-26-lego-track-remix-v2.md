@@ -19,8 +19,8 @@ tags:
 - [**Printables: L-Guage Rails [Redux] to Fit Lego Trains**](https://www.printables.com/model/178910-l-guage-rails-redux-to-fit-lego-trains)
 
 # Design Files
-- [`lego-track-remix-v2-curved.stl`](/assets/stl/2022-04-26-lego-track-remix-v2-curved.stl)
-- [`lego-track-remix-v2-straight.stl`](/assets/stl/2022-04-26-lego-track-remix-v2-straight.stl)
+- [`lego-track-remix-v2-curved.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-26-lego-track-remix-v2-curved.stl)
+- [`lego-track-remix-v2-straight.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-26-lego-track-remix-v2-straight.stl)
 
 
 # Actions

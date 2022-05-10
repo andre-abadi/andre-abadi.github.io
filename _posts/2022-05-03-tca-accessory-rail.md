@@ -23,7 +23,7 @@ tags:
 
 # Design Files
 
-- [`2022-05-03-tca-accessory-rail.stl`](/assets/stl/2022-05-03-tca-accessory-rail.stl)
+- [`2022-05-03-tca-accessory-rail.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-05-03-tca-accessory-rail.stl)
 
 # Actions
 - Calipers and TinkerCAD

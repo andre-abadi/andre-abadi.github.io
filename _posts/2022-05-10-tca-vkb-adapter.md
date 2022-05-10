@@ -15,7 +15,7 @@ tags:
 - [**Printables: Thrustamaster TCA VKB FSM-GA Adapter**](https://www.printables.com/model/201633-thrustamaster-tca-vkb-fsm-ga-adapter)
 
 # Design Files
-- [tca-vkb-adapter](/assets/stl/2022-05-10-tca-vkb-adapter.stl)
+- [tca-vkb-adapter](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-05-10-tca-vkb-adapter.stl)
 
 # Actions
 

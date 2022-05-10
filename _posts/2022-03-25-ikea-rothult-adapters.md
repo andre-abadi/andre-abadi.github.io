@@ -18,9 +18,9 @@ tags:
 - [**Printables: Adapters to Suit IKEA Enhet Cabinet and Rothult Smart Lock**](https://www.printables.com/model/180343-adapters-to-suit-ikea-enhet-cabinet-and-rothult-sm)
 
 # Design Files
-- [`rothult-cabinet-adapters-cabinet-socket.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-cabinet-socket.stl)
-- [`rothult-cabinet-adapters-door-socket.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl)
-- [`rothult-cabinet-adapters-door tab.stl`](/assets/stl/2022-03-25-rothult-cabinet-adapters-door tab.stl)
+- [`rothult-cabinet-adapters-cabinet-socket.stl`]https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-03-25-rothult-cabinet-adapters-cabinet-socket.stl)
+- [`rothult-cabinet-adapters-door-socket.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-03-25-rothult-cabinet-adapters-door-socket.stl)
+- [`rothult-cabinet-adapters-door tab.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-03-25-rothult-cabinet-adapters-door tab.stl)
 
 # Actions
 - The [Rothult](https://www.ikea.com/au/en/p/rothult-smart-lock-white-80429620/) when placed behind the mirrors of the  [Enhet](https://www.ikea.com/au/en/p/enhet-mirror-cabinet-with-2-doors-white-s39396566/), likely due to the metal backing of the mirror panels

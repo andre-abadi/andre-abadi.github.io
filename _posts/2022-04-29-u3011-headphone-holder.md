@@ -16,7 +16,7 @@ tags:
 - [**TinkerCAD: u3011-headphone-holder**](https://www.tinkercad.com/things/5jiHC28RWK5)
 
 # Design Files
-- [`u3011-headphone-holder.stl`](/assets/stl/2022-04-29-u3011-headphone-holder.stl)
+- [`u3011-headphone-holder.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-29-u3011-headphone-holder.stl)
 
 
 # Actions

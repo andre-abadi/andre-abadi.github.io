@@ -14,7 +14,7 @@ categories: 3d printing, home automation
 - Original design: [Articulating Raspberry Pi Camera Mount for Prusa MK3 and MK2](https://www.prusaprinters.org/prints/3407-articulating-raspberry-pi-camera-mount-for-prusa-m)
 - Self made remix of both of the above:
   - Thingiverse: [ESP32-CAM-CH340 Case for Prusa Axis Mount](https://www.thingiverse.com/thing:5090353)
-  - Github: [ESP32-CAM-CH340 Case](/asset/stl/2021-10-13-esp32-cam-ch340-housing.stl)
+  - Github: [ESP32-CAM-CH340 Case](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2021-10-13-esp32-cam-ch340-housing.stl)
 
 # Actions
 - Imported [first](https://www.thingiverse.com/thing:4839587) and [second](https://www.prusaprinters.org/prints/3407-articulating-raspberry-pi-camera-mount-for-prusa-m) original design to [TinkerCAD](tinkercad.com)

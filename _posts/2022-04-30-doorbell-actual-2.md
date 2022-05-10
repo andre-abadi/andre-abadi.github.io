@@ -18,7 +18,7 @@ tags:
 - [AliExpress: *Yamin electric store* Metal Push Button - White, 40mm, 3-6V](https://www.aliexpress.com/item/4000310874353.html?spm=a2g0o.order_list.0.0.6ef01802MIGp6L)
 
 # Design Files
-- [`doorbell-actual.stl`](/assets/stl/2022-04-30-doorbell-actual.stl)
+- [`doorbell-actual.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-30-doorbell-actual.stl)
 
 # Actions
 - Printed the STL *face* down

@@ -18,7 +18,7 @@ tags:
 - [**Printables: Simplified Pianola Roll End Cap**](https://www.printables.com/model/179599-simplified-pianola-roll-end-cap)
 
 # Design Files
-- [`pianola-roll-end-cap.stl`](/assets/stl/2022-04-27-pianola-roll-end-cap.stl)
+- [`pianola-roll-end-cap.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-27-pianola-roll-end-cap.stl)
 
 # Actions
 - Imported [original](https://www.thingiverse.com/thing:5258540) into [TinkerCAD](https://www.tinkercad.com/things/9oiPgj9Pgyp)

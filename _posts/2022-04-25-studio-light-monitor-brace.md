@@ -17,8 +17,8 @@ tags:
 - [**Printables Upload: Dell U3011 Neewer NL600 Adapter**](https://www.printables.com/model/178907-dell-u3011-neewer-nl660-adapter)
 
 # Design Files
-- [`2022-04-25-studio-light-monitor-brace-base.stl`](/assets/stl/2022-04-25-studio-light-monitor-brace-base.stl)
-- [`2022-04-25-studio-light-monitor-brace-pole.stl`](/assets/stl/2022-04-25-studio-light-monitor-brace-pole.stl)
+- [`2022-04-25-studio-light-monitor-brace-base.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-25-studio-light-monitor-brace-base.stl)
+- [`2022-04-25-studio-light-monitor-brace-pole.stl`](https://github.com/andre-abadi/andre-abadi.github.io/blob/master/assets/stl/2022-04-25-studio-light-monitor-brace-pole.stl)
 
 
 # Actions
