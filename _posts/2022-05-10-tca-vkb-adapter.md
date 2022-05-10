@@ -18,7 +18,9 @@ tags:
 - [tca-vkb-adapter](/assets/stl/2022-05-10-tca-vkb-adapter.stl)
 
 # Actions
+
 ## V1
+
 - Created a plug shape to fit into the socket of the accessory rail
 - Added a 22.5° angle to (inadvertently) match the angle of the throttle at TO/GA
 - Identified that the back of the FSM-GA had M3 screw holes recessed slightly
@@ -28,6 +30,7 @@ tags:
 - Printed prototypes noticing easy fit of the plug for the accessory rail socket
 - Inserted heat-set nuts and noticed that this made it difficult to pull the FSM-GA to the adapter
 - Noticed that this version was very far away from the throttle quadrant, looking a bit odd and exacerbating wobble
+
 ##  V2
 - Reduced length of adapter to be closer and in doing so reduce wobble
 - Increased length of heat-set purchase area
@@ -37,7 +40,9 @@ tags:
 - Noticed that the heat-set nuts, being threaded, prevented the adapter from being pulled closer
 - Tried drilling out the threading on the heat-set nuts but this heated up the heat-set nuts and caused them to pop out of the adapter, leaving a hole too big for just the M3 screws
 - Reprinted again
+
 ## V3
+
 - 3.5mm hole for M3 screws
 - Shortened to be closer to the throttle quadrant
 - No heat-set nuts
