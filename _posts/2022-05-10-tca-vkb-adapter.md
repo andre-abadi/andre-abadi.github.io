@@ -10,7 +10,7 @@ tags:
 - Design an adapter to mount the VKB [GNX Front Switchboard Module – General Aviation (FSM-GA)](https://vkb-sim.com.au/collections/gnx-extension-modules-coming-soon/products/gnx-front-switchboard-module-general-aviation-fsm-ga) onto my self-designed [TCA Accessory Rail]({{ site.baseurl }}/2022/05/03/2022-05-03-tca-accessory-rail.html), which mounts onto the throttle quadrant of a [TCA Captain Pack Airbus Edition](https://www.thrustmaster.com/en-us/products/tca-captain-pack-airbus-edition/)
 
 # References
-- [Part 1: TCA Accessory Rail]({{ site.baseurl }}/2022/05/03/2022-05-03-tca-accessory-rail.html)
+- [Part 1: TCA Accessory Rail]({{ site.baseurl }}/2022/05/03/tca-accessory-rail.html)
 - [**TinkerCAD: tca-vkb-adapter**](https://www.tinkercad.com/things/7TcH2VKYLfw)
 - [**Printables: Thrustamaster TCA VKB FSM-GA Adapter**](https://www.printables.com/model/201633-thrustamaster-tca-vkb-fsm-ga-adapter)
 
