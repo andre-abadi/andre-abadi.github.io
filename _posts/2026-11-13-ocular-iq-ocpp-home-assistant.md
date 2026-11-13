@@ -217,8 +217,71 @@ tags:
 
         return call_result.DataTransfer(status=DataTransferStatus.accepted.value)
     ```
+
 - This resulted in four new sensors being added to the meter device:
     - `Current.Ocular.Grid` which correlated 95% to the grid current reading from Solaredge Modbus.
     - `Power.Active.Ocular.Grid` which correlated 95% to the grid power reading from Solaredge Modbus.
-    - `Ocular.EcoMode` which reflected the eco mode status of the Ocular meter prior to cutover to local control.
-    - `Ocular.SolarEnabled` which required further investigation.
+    - `Ocular.EcoMode` which required further investigation to determine numeric range.
+    - `Ocular.SolarEnabled` which required further investigation but may be a sensor indicating that on the charger, `enableSolar` was set to `1`.
+
+# Next Steps
+- Determine what combination of `Ocular.EcoMode` and `Ocular.SolarEnabled` values correspond to:
+    - Fast Charge: 32A (or as max allowed by charger) with no solar consideration
+    - Solar Assist: 6A from grid plus any excess solar energy
+    - Solar Only: No grid energy, minimum X excess amps to grid
+- Determine if there is a relationship between meter `Ocular.SolarEnabled` and charger `enableSolar` values.
+- Identify the setting on the charger that corresponds to *plug and charge* mode where the vehicle starts charging automatically upon being plugged in.
+
+# Mode Mapping Tests
+- Set charger `enableSolar` from `1` to `0` and observe changes in `Ocular.SolarEnabled` sensor.
+    ```yaml
+    action: ocpp.configure
+    data:
+        devid: charger
+        ocpp_key: enableSolar
+        value: "0"
+    ```
+    ```yaml
+    reboot_required: true
+    ```
+
+- Rebooted via web interface.
+- Observed that on meter device, `Ocular.SolarEnabled` changed to `Disabled`!
+- Changed it back to `1`
+- Observed that on meter device, `Ocular.SolarEnabled` changed back to `Enabled`!
+- Set charger `EcoMode` from `1` to `0` and observe changes in meter `Ocular.EcoMode` sensor.
+    ```yaml
+    action: ocpp.configure
+    data:
+        devid: charger
+        ocpp_key: EcoMode
+        value: "0"
+    ```
+    ```yaml
+    reboot_required: true
+    ```
+
+- Rebooted via web interface.
+- Observed that on meter `Ocular.EcoMode` changed from `PV` to `Fast`, which corresponds to known advertised charge modes!
+- Set charger `EcoMode` from `0` to `2` and observe changes in meter `Ocular.EcoMode` sensor.
+    ```yaml
+    action: ocpp.configure
+    data:
+        devid: charger
+        ocpp_key: EcoMode
+        value: "2"
+    ```
+    ```yaml
+    reboot_required: true
+    ```
+
+- Rebooted via web interface.
+- Observed that on meter `Ocular.EcoMode` changed from `PV` to `PV_plus`, which corresponds to known advertised charge modes!
+- So now we know that:
+    - `Ocular.EcoMode` sensor on the meter corresponds to the charger's `EcoMode` sensor.
+        - `0` on the charger maps to `Fast` on the meter.
+        - `1` on the charger maps to `PV` on the meter.
+        - `2` on the charger maps to `PV_plus` on the meter.
+    - `Ocular.SolarEnabled` sensor on the meter corresponds to the charger's `enableSolar` sensor.
+- Appears that the meter simply provides data back to the charger, and all functionality is governed by the charger itself i.e. `ocpp.configure` at the charger changes behaviour **NOT** at the meter.
+- The meter acts as a passive observer, and can map certain numerical states from the charger to semi-readable strings for easier interpretation e.g. charger `ecoMode` value of `0` corresponds to meter `EcoMode` value of `Fast`.
