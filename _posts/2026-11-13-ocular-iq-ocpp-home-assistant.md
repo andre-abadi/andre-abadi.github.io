@@ -136,3 +136,89 @@ tags:
 - Next step is to:
     - Render the vendor data in Home Assistant frontend via integration.
     - Ideally make any adjustable settings adjustable in Home Assistant.
+
+# Proof of Concept Sensors Only
+1. Install Home Assistant [OCPP custom integration](https://github.com/lbbrhzn/ocpp/blob/main/README.md)
+2. Configure integration, redirect OCPP to Home Assistant and verify working
+1. Home Assistant action `ocpp.configure` for primary device `charger`:
+    - `bsPort` -> `sPort`
+    - `bsDomain` -> `sDomain`
+    - `bsURL` -> `sURL`
+    - `bsecurityProfile` -> `securityProfile`
+    - `bId` -> `Ocular-IQ-Meter` or similar to distinguish from `Ocular-IQ-Charger`
+2. Add new device that should appear on OCPP custom integration page
+3. Enable integration debug loggind and check for lines starting with:
+    - `Data transfer received from Ocular-IQ-Meter:`
+    - `Connection latency from 'central' to 'Ocular-IQ-Meter':`
+4. (Optionally) In Home Assistant device page for the meter, disable all Controls, Sensors, Configuration, and any Diagnostic showing Unknown.
+5. Edit `sensor.py` in the OCPP custom integration to add support for the new meter values. Just before `if num_connectors > 1`
+    ```python
+    if cpid == "meter":
+    for metric in (
+        "Current.Ocular.Grid",
+        "Power.Active.Ocular.Grid",
+        "Ocular.EcoMode",
+        "Ocular.SolarEnabled",
+    ):
+        entities.append(
+            ChargePointMetric(
+                hass,
+                central_system,
+                cpid,
+                _mk_desc(metric),
+                connector_id=None,
+                charger_device_id=charger_device_id,
+            )
+        )
+    ```
+6. Edit `ocppv16.py` and replace the `on_data_transfer_method with:
+    ```python
+        @on(Action.data_transfer)
+    def on_data_transfer(self, vendor_id, **kwargs):
+        """Handle a Data transfer request."""
+        _LOGGER.debug("Data transfer received from %s: %s", self.id, kwargs)
+        self._metrics[0][cdet.data_transfer].value = datetime.now(tz=UTC)
+        self._metrics[0][cdet.data_transfer].extra_attr = {vendor_id: kwargs}
+
+        if (
+            self.id == "Ocular-IQ-Meter"
+            and vendor_id == "IoCharger"
+            and kwargs.get("message_id") == "meterValue"
+        ):
+            try:
+                payload = json.loads(kwargs["data"])
+                grid = payload["sampledValue"]["powerGrid"][0]
+                current = float(grid["current"][0])
+                power = float(grid["powerToGrid"])
+                eco_mode = payload["ecoMode"]
+                solar_enabled = payload["enableSolar"]
+
+                if not math.isfinite(current) or not math.isfinite(power):
+                    raise ValueError("Non-finite grid measurement")
+                if not isinstance(eco_mode, str) or not isinstance(solar_enabled, bool):
+                    raise ValueError("Invalid eco mode or solar-enabled value")
+
+                values = {
+                    "Current.Ocular.Grid": (current, "A"),
+                    "Power.Active.Ocular.Grid": (power, "W"),
+                    "Ocular.EcoMode": (eco_mode, None),
+                    "Ocular.SolarEnabled": (
+                        "Enabled" if solar_enabled else "Disabled",
+                        None,
+                    ),
+                }
+                for key, (value, unit) in values.items():
+                    self._metrics[0][key].value = value
+                    self._metrics[0][key].unit = unit
+
+                self._async_refresh_metric_entities(list(values))
+            except (KeyError, IndexError, TypeError, ValueError) as err:
+                _LOGGER.warning("Invalid Ocular meterValue from %s: %s", self.id, err)
+
+        return call_result.DataTransfer(status=DataTransferStatus.accepted.value)
+    ```
+- This resulted in four new sensors being added to the meter device:
+    - `Current.Ocular.Grid` which correlated 95% to the grid current reading from Solaredge Modbus.
+    - `Power.Active.Ocular.Grid` which correlated 95% to the grid power reading from Solaredge Modbus.
+    - `Ocular.EcoMode` which reflected the eco mode status of the Ocular meter prior to cutover to local control.
+    - `Ocular.SolarEnabled` which required further investigation.
